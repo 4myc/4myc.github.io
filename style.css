@@ -34,14 +34,14 @@ letter-spacing: 0.2rem;
 /* links on hover */
 .navbar a:hover {
 /* border-bottom: 5px solid #4CAF50; */
-border-bottom: 5px solid #68d304;
+border-bottom: 5px solid #bde474;
 }
 
 /* current page styling */
 .navbar a.active {
 /* border-bottom: 5px solid #4CAF50; */
-border-bottom: 5px solid #68d304;
-color: #bde474;
+border-bottom: 5px solid #bde474;
+color: #68d304;
 }
 
 /* hide the link that should open and close the navbar on small screens
