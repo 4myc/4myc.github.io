@@ -1,0 +1,54 @@
+/* navbar container */
+.navbar {
+padding: 2rem 10rem 0rem 0rem; 
+border: 1px;
+}
+
+/* links inside the navbar */
+.navbar a {
+float: right;
+display: block;
+color: #1f1d1d;
+/* color: black; */
+/* color: #f2f2f2; */
+text-align: center;
+margin: 1rem 2rem;
+border-bottom: 3px solid transparent;
+text-decoration: none;
+font-size: 1.5rem;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* links on hover */
+.navbar a:hover {
+border-bottom: 6px solid #4CAF50;
+}
+
+/* current page styling */
+.navbar a.active {
+color: #4CAF50;
+/* color: white; */
+}
+
+/* hide the link that should open and close the navbar on small screens */
+.navbar .icon {
+display: none;
+}
+
+/* name */
+#name {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1.75rem;
+text-align: left;
+padding: 0rem;
+}
+
+/* bio */
+#bio {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 2rem;
+margin: auto;
+width: 70%;
+padding: 10rem;
+line-height: 3.5rem;
+}
