@@ -23,17 +23,17 @@ border-bottom: 3px solid transparent;
 text-decoration: none;
 font-size: 1.75rem;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+letter-spacing: 0.2rem;
 }
 
 /* links on hover */
 .navbar a:hover {
-border-bottom: 6px solid #4CAF50;
+border-bottom: 5px solid #4CAF50;
 }
 
 /* current page styling */
 .navbar a.active {
-color: #4CAF50;
-/* color: white; */
+border-bottom: 5px solid #4CAF50;
 }
 
 /* hide the link that should open and close the navbar on small screens */
@@ -57,5 +57,5 @@ margin: auto;
 width: 75%;
 padding: 10rem;
 line-height: 3.5rem;
-letter-spacing: 0.1rem;
+letter-spacing: 0.08rem;
 }
