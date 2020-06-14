@@ -41,7 +41,7 @@ border-bottom: 5px solid #68d304;
 .navbar a.active {
 /* border-bottom: 5px solid #4CAF50; */
 border-bottom: 5px solid #68d304;
-/* color: #bde474; */
+color: #bde474;
 }
 
 /* hide the link that should open and close the navbar on small screens
