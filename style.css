@@ -53,24 +53,23 @@ i { color: #68d304; }
 display: none;
 } */
 
-
 /* bio-container */
 #bio-container {
-    margin: 8rem 0rem 0rem 0rem;
-    /* border: 1px solid #ffffff; */
-    }
-    
-    /* bio */
-    #bio {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 2rem;
-    line-height: 4rem;
-    letter-spacing: 0.05rem;
-    margin: auto;
-    width: 75%;
-    /* padding: 8rem 0rem 0rem 0rem; */
-    /* border: 1px solid #ffffff; */
-    }
+margin: 8rem 0rem 0rem 0rem;
+/* border: 1px solid #ffffff; */
+}
+
+/* bio */
+#bio {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 2rem;
+line-height: 4rem;
+letter-spacing: 0.05rem;
+margin: auto;
+width: 75%;
+/* padding: 8rem 0rem 0rem 0rem; */
+/* border: 1px solid #ffffff; */
+}
 
 
 /* contact container */
