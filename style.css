@@ -44,6 +44,10 @@ border-bottom: 5px solid #bde474;
 color: #68d304;
 }
 
+/* &:active {
+i { color: #68d304; }
+} */
+
 /* hide the link that should open and close the navbar on small screens
 .navbar .icon {
 display: none;
@@ -69,9 +73,9 @@ width: 75%;
 
 /* contact container */
 #contact {
-margin: auto;
-width: 30%;
-padding: 3rem 0rem 0rem 0rem;
+display: flex;
+justify-content: center;
+margin: 5rem 0rem 0rem 0rem;
 /* border: 1px solid #ffffff; */
 }
 
@@ -79,7 +83,75 @@ padding: 3rem 0rem 0rem 0rem;
 #contact a {
 font-size: 2.25rem;
 padding: 0rem 1.5rem 0rem 1.5rem;
-color: #e7dede;
+color: #d8d8d8;
 /* color: #d3cbcb; */
 /* border: 1px solid #ffffff; */
+}
+
+/* resume page container */
+#resume-pg-container {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+margin: 1rem 0rem 0rem 0rem;
+}
+
+#resume-row {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+margin: 4rem 0rem 0rem 0rem;
+}
+
+/* view resume link */
+.view-resume {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1.5rem;
+letter-spacing: 0.05rem;
+color:#62c952;
+/* border: 1px solid #ffffff; */
+}
+
+/* section header */
+.section-header {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1.25rem;
+letter-spacing: 0.05rem;
+color:#62c952;
+/* border: 1px solid #ffffff; */
+}
+
+/* skill icons */
+.skill-section {
+padding: 0.25rem 1.5rem 0rem 0rem;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* justify-content: center; */
+/* flex-wrap: wrap; */
+font-size: 2rem;
+color: #e7dede;
+/* border: 1px solid #ffffff; */
+}
+
+/* skill icon and name */
+.skill-row {
+display: flex;
+margin-bottom: 0.25rem;
+/* border: 1px solid #ffffff; */
+}
+
+/* skill name */
+.skill-name {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1.25rem;
+margin: 0rem 0rem 0rem 2rem;
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 1px solid #ffffff; */
+}
+
+.design-row {
+margin: 0rem 0rem 0rem 5rem;
 }
