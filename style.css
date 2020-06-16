@@ -2,13 +2,17 @@
 background-color: #1d1c1c;
 color: #e7dede;
 /* color: #e9dfdf; */
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
 }
 
 /* navbar container */
 .navbar {
 padding: 2rem 10rem 0rem 0rem; 
 border: 1px;
-font-family: ;
 }
 
 /* links inside the navbar */
@@ -24,24 +28,22 @@ color: #e7dede;
 margin: 1rem 2rem 0rem 0rem;
 padding: 0.25rem;
 /* border-bottom: 3px solid transparent; */
-border-bottom: 3px solid #e7dede;
+border-bottom: 2px solid #e7dede;
 text-align: center;
 text-decoration: none;
-font-size: 1.5rem;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+font-size: 1.25rem;
 letter-spacing: 0.2rem;
 }
 
 /* links on hover */
 .navbar a:hover {
 /* border-bottom: 5px solid #4CAF50; */
-border-bottom: 5px solid #bde474;
+border-bottom: 4px solid #bde474;
 }
 
 /* current page styling */
 .navbar a.active {
-/* border-bottom: 5px solid #4CAF50; */
-border-bottom: 5px solid #bde474;
+border-bottom: 4px solid #bde474;
 /* color: #68d304; */
 }
 
@@ -60,9 +62,8 @@ margin: 7rem 0rem 0rem 0rem;
 }
 
 #bio {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 1.8rem;
-line-height: 5.5rem;
+line-height: 5.25rem;
 letter-spacing: 0.05rem;
 margin: auto;
 width: 75%;
@@ -75,35 +76,32 @@ margin-top: 1.5rem;
 }
 
 #hello {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 5.5rem; 
 color:#e9dede;
 }
 
 #front-dev {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 3.6rem; 
-font-weight: 430; 
+font-size: 3.5rem; 
+letter-spacing: 0.15rem;
 color:#68d304;
 }
 
 #full-stack {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 2rem; 
-font-weight: 549; 
+letter-spacing: 0.1rem;
 color:#0b8f25;
 }
 
 #ui-ux {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 2rem; 
+letter-spacing: 0.1rem;
 color:#62c952;
 }
 
 #design {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 2rem; 
-font-weight: 480; 
+/* font-weight: 480;  */
+letter-spacing: 0.1rem;
 color:#bde474;
 }
 
@@ -112,14 +110,14 @@ color:#bde474;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 10rem 0rem 0rem 0rem;
+margin: 10rem 0rem 5rem 0rem;
 /* border: 1px solid #ffffff; */
 }
 
 /* contact icons */
 #contact a {
 font-size: 2.25rem;
-margin: 0rem 1.5rem 0rem 1.5rem;
+margin: 0rem 1.5rem 1rem 1.5rem;
 /* color: #d8d8d8; */
 /* color: #d3cbcb; */
 /* border: 1px solid #ffffff; */
@@ -130,7 +128,7 @@ margin: 0rem 1.5rem 0rem 1.5rem;
 .grid-wrapper {
 display: grid;
 grid-template-columns: auto auto auto;
-margin: 6rem 0rem 0rem 0rem;
+margin: 7rem 0rem 0rem 0rem;
 /* border: 1px solid #ffffff; */
 }
 
@@ -139,38 +137,45 @@ margin: 6rem 0rem 0rem 0rem;
 }
 
 .view-resume {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size: 2.25rem;
-font-weight:500;
-letter-spacing: 0.1rem;
+/* font-weight:500; */
+letter-spacing: 0.25rem;
 /* color:#62c952; */
 /* text-align: center */
 /* border: 1px solid #ffffff; */
 }
 
+#resume-link {
+text-decoration: none;
+border-bottom: 1.5px solid #bde474;
+}
+
 .section-header {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 1.75rem;
-font-weight: 500;
-letter-spacing: 0.2rem;
+font-size: 1.6rem;
+/* font-weight: 500; */
+letter-spacing: 0.35rem;
 color:#73c516;
 /* color:#62c952; */
 margin: 4rem 0rem 1rem 0rem;
-border-bottom: 2px solid #bde474;
+border-bottom: 1.25px solid #bde474;
 }
 
 .sub-header {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 1.25rem;
-font-weight: 500;
-letter-spacing: 0.15rem;
+font-size: 1.2rem;
+/* font-weight: 500; */
+letter-spacing: 0.4rem;
 color:#0b8f25;
 /* color:#62c952; */
-margin: 2.5rem 0rem 0.75rem 0rem;
+margin: 3rem 0rem 0.75rem 0rem;
+}
+
+.icon-row {
+padding: 0.5rem;
 }
 
 .skill-icons {
-margin-right: 2rem;
+/* margin-right: 2rem; */
+margin: 1rem;
 font-size: 2.75rem;
 color: #e7dede;
 /* border: 1px solid #ffffff; */
@@ -178,18 +183,65 @@ color: #e7dede;
 
 
 /* WORK PAGE */
-/* projects wrapper */
-#project-wrapper {
-display: flex;
-justify-content: space-around;
-align-items: center;
-margin: 8rem 0rem 0rem 0rem;
-/* border: 1px solid #ffffff; */
+
+/* float three columns side by side */
+.column {
+float: left;
+/* justify-content: space-around; */
+/* align-items: center; */
+width: 35%;
+
+/* padding: 0 2rem; */
 }
 
-/* project card */
-#project-card {
-height: 300px;
-width: 400px;
-/* border: 1px solid #ffffff; */
+/* remove extra left and right margins, due to padding */
+.row {
+margin: 8rem 0rem 5rem 0rem;
+/* margin: 0 -5px; */
+}
+
+/* clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+/* responsive columns */
+@media screen and (max-width: 600px) {
+.column {
+    width: 100%;
+    display: block;
+    /* margin-bottom: 20px; */
+}
+}
+
+.card {
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+/* padding: 1rem; */
+text-align: center;
+background-color: #f1f1f1;
+border: 1px solid red;
+}
+
+.card-caption {
+/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+/* padding: 1rem; */
+/* text-align: center; */
+/* background-color: #f1f1f1; */
+/* width: 400px;
+height: 300px; */
+background-size: cover;
+background-repeat: no-repeat;
+/* background-position: 50% 50%; */
+}
+
+img {
+    border: 1px solid red;
+}
+
+/* to make image scale down if it has to, but never scale up to be larger than its original size, use max-width: 100% */
+.responsive {
+max-width: 100%;
+height: auto;
 }
