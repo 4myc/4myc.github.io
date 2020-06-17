@@ -5,8 +5,10 @@ color: #e7dede;
 box-sizing: border-box;
 }
 
-body {
+html, body {
+height: 100%;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'Helvetica', sans-serif;
+/* border: 1px solid #fff; */
 }
 
 /* navbar container */
@@ -31,7 +33,7 @@ padding: 0.25rem;
 border-bottom: 2px solid #e7dede;
 text-align: center;
 text-decoration: none;
-font-size: 1.25rem;
+font-size: 1.1rem;
 letter-spacing: 0.2rem;
 }
 
@@ -127,7 +129,13 @@ margin: 0rem 1.5rem 1rem 1.5rem;
 font-size: 0.75rem;
 display: flex;
 justify-content: center;
-align-items: center;
+flex-direction: flex-end;
+/* border: 1px solid #fff; */
+}
+
+#made-with {
+position: absolute;
+bottom: 0;
 /* border: 1px solid #fff; */
 }
 
