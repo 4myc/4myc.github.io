@@ -13,12 +13,16 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 /* navbar container */
 .navbar {
+/* position: relative; */
 padding: 2rem 14rem 0rem 0rem; 
-border: 1px;
+/* border: 1px; */
 }
 
 /* links inside the navbar */
 .navbar a {
+/* position: absolute;
+display: flex;
+justify-content: flex-end; */
 float: right;
 display: block;
 color: #e7dede;
@@ -119,25 +123,22 @@ margin: 4rem 0rem 5rem 0rem;
 /* contact icons */
 #contact a {
 font-size: 2.25rem;
-margin: 0rem 1.5rem 1rem 1.5rem;
+margin: 1.5rem;
 /* color: #d8d8d8; */
 /* color: #d3cbcb; */
 /* border: 1px solid #fff; */
 }
 
-#footer {
+#made-with {
 font-size: 0.75rem;
-display: flex;
+margin: 13rem 0rem 3rem 0rem;
+text-align: center;
+/* display: flex;
 justify-content: center;
-flex-direction: flex-end;
+align-items: center; */
 /* border: 1px solid #fff; */
 }
 
-#made-with {
-position: absolute;
-bottom: 0;
-/* border: 1px solid #fff; */
-}
 
 /* RESUME PAGE */
 .grid-wrapper {
@@ -197,73 +198,3 @@ color: #e7dede;
 
 
 /* WORK PAGE */
-
-/* float three columns side by side */
-.column {
-float: left;
-/* justify-content: space-around; */
-/* align-items: center; */
-width: 35%;
-
-/* padding: 0 2rem; */
-}
-
-.project-wrapper {
-    margin: 8rem 0rem 5rem 0rem;
-}
-
-/* remove extra left and right margins, due to padding */
-.row {
-
-margin: 0 -5px;
-}
-
-/* clear floats after the columns */
-.row:after {
-content: "";
-display: table;
-clear: both;
-}
-
-/* responsive columns */
-@media screen and (max-width: 600px) {
-.column {
-    width: 100%;
-    display: block;
-    /* margin-bottom: 20px; */
-}
-}
-
-.card {
-/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-/* padding: 1rem; */
-text-align: center;
-background-color: #f1f1f1;
-border: 1px solid #73c516;
-}
-
-.card-caption {
-/* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
-padding: 0.75rem;
-/* text-align: center; */
-/* background-color: #f1f1f1; */
-/* width: 400px;
-height: 300px; */
-background-size: cover;
-background-repeat: no-repeat;
-/* background-position: 50% 50%; */
-border: 1px solid #73c516;
-}
-
-img {
-/* width: 400px;
-height: 400px; */
-/* object-fit: cover; */
-border: 1px solid #73c516;
-}
-
-/* to make image scale down if it has to, but never scale up to be larger than its original size, use max-width: 100% */
-.responsive {
-max-width: 100%;
-height: auto;
-}
