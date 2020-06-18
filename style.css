@@ -72,13 +72,13 @@ display: none;
 } */
 
 #bio-container {
-margin: 7rem 0rem 0rem 0rem;
+margin: 6rem 0rem 0rem 0rem;
 /* border: 1px solid #fff; */
 }
 
 #bio {
 font-size: 1.8rem;
-line-height: 5.75rem;
+line-height: 6rem;
 letter-spacing: 0.05rem;
 margin: auto;
 width: 75%;
@@ -95,6 +95,21 @@ font-size: 6rem;
 font-style: italic;
 font-weight: 300;
 color:#e9dede;
+}
+
+#hello:hover,
+#hello:focus {
+  -webkit-transform: scale(1.15);
+     -moz-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+		  transform: scale(1.15);
+} 
+
+#hello {
+  -webkit-transition: transform 0.2s;
+     -moz-transition: transform 0.2s;
+       -o-transition: transform 0.2s;
+          transition: transform 0.2s;
 }
 
 #front-dev {
@@ -128,7 +143,7 @@ color:#bde474;
 display: flex;
 justify-content: center;
 align-items: center;
-margin: 4rem 0rem 5rem 0rem;
+margin: 3rem 0rem 0rem 0rem;
 min-width: 480px;
 /* border: 1px solid #fff; */
 }
@@ -144,14 +159,16 @@ margin: 1.5rem;
 
 #made-with {
 font-size: 0.8rem;
-margin: 10rem 0rem 3rem 0rem;
+margin: 12rem 0rem 3rem 0rem;
 padding: 1rem;
 text-align: center;
+color: #696969;
 /* border: 1px solid #fff; */
 }
 
 .made-with-icon {
 padding: 0.25rem;
+color: #757575;
 }
 
 
@@ -221,7 +238,7 @@ display: inline-block;
 .tooltip .tooltiptext {
 visibility: hidden;
 width: 120px;
-background-color: #e7dede;
+background-color: #73c516;
 color: #1c1c1c;
 text-align: center;
 /* border-radius: 1px; */
@@ -231,10 +248,11 @@ z-index: 1;
 bottom: 100%;
 left: 50%;
 margin-left: -60px;
+margin-bottom: 10px;
 
 /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
 opacity: 0;
-transition: opacity 1.25s;
+transition: opacity 1s;
 }
 
 .tooltip .tooltiptext::after {
@@ -246,12 +264,28 @@ margin-left: -5px;
 border-width: 5px;
 border-style: solid;
 /* border-color: #1c1c1c transparent transparent transparent; */
-border-color: #a7a4a4 transparent transparent transparent;
+/* border-color: #a7a4a4 transparent transparent transparent; */
+border-color: #bde474 transparent transparent transparent;
 }
 
 .tooltip:hover .tooltiptext {
 visibility: visible;
-opacity: 3;
+opacity: 90%;
+}
+
+.icon-zoom:hover,
+.icon-zoom:focus {
+  -webkit-transform: scale(1.15);
+     -moz-transform: scale(1.15);
+      -ms-transform: scale(1.15);
+		  transform: scale(1.15);
+} 
+
+.icon-zoom {
+  -webkit-transition: transform 0.2s;
+     -moz-transition: transform 0.2s;
+       -o-transition: transform 0.2s;
+          transition: transform 0.2s;
 }
 
 
