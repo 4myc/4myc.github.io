@@ -22,7 +22,7 @@ font-family: 'Montserrat', sans-serif;
 .navbar {
 /* position: relative; */
 padding: 2rem 12rem 0rem 0rem; 
-min-width: 600px;
+min-width: 480px;
 /* flex-wrap: nowrap; */
 /* border: 1px; */
 }
@@ -129,6 +129,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin: 4rem 0rem 5rem 0rem;
+min-width: 480px;
 /* border: 1px solid #fff; */
 }
 
@@ -144,10 +145,8 @@ margin: 1.5rem;
 #made-with {
 font-size: 0.8rem;
 margin: 13rem 0rem 3rem 0rem;
+padding: 1rem;
 text-align: center;
-/* display: flex;
-justify-content: center;
-align-items: center; */
 /* border: 1px solid #fff; */
 }
 
