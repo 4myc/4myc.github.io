@@ -1,5 +1,5 @@
 * {
-background-color: #1d1c1c;
+background-color: #1c1c1c;
 color: #e7dede;
 /* color: #e9dfdf; */
 /* box-sizing: border-box; */
@@ -168,7 +168,7 @@ margin: 7rem 0rem 0rem 0rem;
 }
 
 .view-resume {
-font-size: 2rem;
+font-size: 1.75rem;
 font-weight: 500;
 letter-spacing: 0.1rem;
 /* color:#62c952; */
@@ -182,7 +182,7 @@ border-bottom: 1.5px solid #bde474;
 }
 
 .section-header {
-font-size: 1.6rem;
+font-size: 1.5rem;
 /* font-weight: 500; */
 letter-spacing: 0.25rem;
 color:#73c516;
@@ -210,7 +210,6 @@ font-size: 2.75rem;
 color: #e7dede;
 /* border: 1px solid #fff; */
 }
-
 
 /* WORK PAGE */
 
