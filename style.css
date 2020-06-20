@@ -37,6 +37,7 @@ color: #e7dede;
 opacity: 90%;
 margin: 0.5rem 1rem;
 padding: 5px 5px;
+text-align: center;
 text-decoration: none;
 font-size: 1em;
 letter-spacing: 0.2rem;
@@ -47,6 +48,7 @@ letter-spacing: 0.2rem;
 .navbar a:hover {
 /* border-bottom: 4px solid #bde474; */
 border-bottom: 4px solid #95DF4F;
+color: #68d304;
 opacity: 90%;
 }
 
@@ -55,6 +57,7 @@ opacity: 90%;
 /* border-bottom: 4px solid #bde474; */
 border-bottom: 4px solid #95DF4F;
 opacity: 95%;
+color: #68d304;
 }
 
 /* hide the link that should open and close the navbar on small screens */
@@ -538,10 +541,10 @@ box-shadow:
 
 /* NAVBAR RESPONSIVE MEDIA QUERY */
 @media only screen and (max-width: 480px) {
-	/* .navbar a:not(:first-child) {display: none;} */
+	.navbar a:not(:first-child) {display: none;}
 	.navbar a.icon {
-	  float: right;
-	  /* display: block; */
+	  /* float: right; */
+	  display: block;
 	}
   }
 
@@ -554,7 +557,7 @@ box-shadow:
   } */
   
 /* JavaScript "responsive" class */
-/* @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 .navbar.responsive {position: relative;}
 .navbar.responsive a.icon {
 	position: absolute;
@@ -566,7 +569,7 @@ box-shadow:
 	display: block;
 	text-align: left;
 }
-} */
+}
 
 
 .project-name {
