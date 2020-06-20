@@ -4,16 +4,24 @@ background-color: e9e8e8;
 color: #e7dede;
 /* color: #e9dfdf; */
 box-sizing: border-box;
+/* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
+
+  /* Set neon color for "Hello!" */
+  --neon-text-color: rgb(238, 255, 0);
+  /* --neon-border-color: #08f; */
+  /* --neon-text-color: #f40;
+  --neon-border-color: #08f; */
 }
 
 html, body {
 background-color: #1c1c1c;
 height: 100vh;
+max-width: 100%;
 margin: 0;
 padding: 0;
 font-family: 'Montserrat', sans-serif;
-word-wrap: break-word;
-overflow-wrap: break-word;
+/* word-wrap: break-word;
+overflow-wrap: break-word; */
 /* border: 1px solid #fff; */
 }
 
@@ -33,7 +41,7 @@ float: right;
 display: block;
 color: #e7dede;
 opacity: 90%;
-margin: 1rem 1rem;
+margin: 0.5rem 1rem;
 padding: 5px 5px;
 text-decoration: none;
 font-size: 1em;
@@ -56,20 +64,20 @@ opacity: 95%;
 }
 
 /* hide the link that should open and close the navbar on small screens */
-.navbar .icon {
+/* .navbar .icon {
 display: none;
-}
+} */
 
 #bio-container {
 margin: 0;
-padding: 0 7rem;
+padding: 0 6rem;
 /* width: 100vw; */
 max-width: 100vw;
 /* border: 1px solid #fff; */
 }
 
 #bio {
-font-size: 1.75em;
+font-size: 1.71em;
 line-height: 6rem;
 letter-spacing: 0.05rem;
 margin-top: 3rem;
@@ -79,6 +87,14 @@ margin-top: 3rem;
 /* padding: 2rem 0rem 0rem 0rem; */
 /* border: 1px solid #fff; */
 }
+
+/* BIO RESPONSIVE MEDIA QUERY */
+/* @media only screen and (max-width: 480px) {
+	.bio-container {
+	  padding-top: 12rem;
+	}
+  }
+   */
 
 #bio-details {
 margin-top: 2.5rem;
@@ -98,6 +114,8 @@ opacity: 90%;
      -moz-transform: scale(1.15);
       -ms-transform: scale(1.15);
 		  transform: scale(1.15);
+		  /* text-shadow: 0 0 15px #c2ec74; */
+		  color: #c2ec74;
 } 
 
 #hello {
@@ -106,6 +124,8 @@ opacity: 90%;
        -o-transition: transform 0.15s;
           transition: transform 0.15s;
 }
+
+/* a:hover { text-shadow: 0 0 5px #ff0000; } */
 
 .front-dev {
 font-size: 1.7em; 
@@ -132,7 +152,8 @@ opacity: 90%;
 #design {
 font-size: 1em; 
 letter-spacing: 0.1rem;
-color:#bde474;
+/* color:#bde474; */
+color:#c2ec74;
 opacity: 90%;
 }
 
@@ -221,7 +242,7 @@ color: #757575;
 .grid-wrapper {
 display: grid;
 grid-template-columns: auto auto auto;
-margin: 2rem 0rem 0rem 0rem;
+margin: 4rem 0;
 /* border: 1px solid #fff; */
 }
 
@@ -275,6 +296,15 @@ color: #e7dede;
 /* border: 1px solid #fff; */
 }
 
+/* DEV SKILL ICONS MEDIA QUERY to add padding around icons when viewed on mobile screens */
+@media only screen and (max-width: 480px) {
+    .skill-icons {
+        display: inline-block;
+        margin: 20px auto;
+    }
+}
+
+
 /* SKILL HOVER TOOLTIP */
 .skill-tooltip {
 position: relative;
@@ -283,7 +313,7 @@ display: inline-block;
 
 .skill-tooltip .skill-tooltiptext {
 visibility: hidden;
-width: 120px;  /* tooltip stretches to fit text, don't set width */
+width: 120px;  /* tooltip stretches to fit text if no width is set */
 background-color: #73c516;
 color: #1c1c1c;
 text-align: center;
@@ -385,7 +415,7 @@ opacity: 90%;
 	background-color: transparent;
 	/* background-color: #e9e8e8; */
 
-/* slide drop shadow */
+/* project slide drop shadow */
 /* transition: all 0.5s; */
 box-shadow:
 0 2.8px 2.2px rgba(0, 0, 0, 0.02),
@@ -481,10 +511,16 @@ box-shadow:
 	/* background-color: transparent; */
 	background-color: #e9e8e8;
 	padding-left: 2rem;
+	/* overflow-wrap: break-word; */
   }
+ 
+  /* only screen: The only keyword is used to prevent older browsers that do not support media queries with media features from applying the specified styles. 
+  Example: block older browsers from seeing an iPhone or Android phone style sheet. */
 
+  /* The keyword ‘only’ can also be used to hide style sheets from older user agents. User agents must process media queries starting with ‘only’ as if the ‘only’ keyword was not present. */
+  
   /* ACCORDION SLIDER RESPONSIVE MEDIA QUERY */
-   @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 480px) {
   
   body { margin: 0;  }
   
@@ -502,19 +538,31 @@ box-shadow:
 	transition: none;
 	background-color: transparent;
   }
+  .accordion ul li {
+	width: 100%;
+	overflow-y: visible;
+	}	
   }
 
 /* NAVBAR RESPONSIVE MEDIA QUERY */
-@media screen and (max-width: 480px) {
-	.navbar a:not(:first-child) {display: none;}
+@media only screen and (max-width: 480px) {
+	/* .navbar a:not(:first-child) {display: none;} */
 	.navbar a.icon {
 	  float: right;
-	  display: block;
+	  /* display: block; */
 	}
   }
+
+  /* @media only screen and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+	  html {
+		  height: 100vh;
+	  }
+  } */
   
 /* JavaScript "responsive" class */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
 .navbar.responsive {position: relative;}
 .navbar.responsive a.icon {
 	position: absolute;
@@ -526,7 +574,7 @@ box-shadow:
 	display: block;
 	text-align: left;
 }
-}
+} */
 
 
 .project-name {
@@ -537,6 +585,8 @@ letter-spacing: 0.25em;
 padding: 1.5rem 0;
 /* background-color: #e9e8e8; */
 background-color: transparent;
+width: 100%;
+/* border: 1px solid red; */
 } 
 
 .project-desc {
@@ -547,7 +597,7 @@ font-size: 1.25em;
 font-weight: 500;
 padding-bottom: 3rem;
 text-align: center;
-border-bottom: none;
+/* border: 1px solid red; */
 }
 
 .project-image {
@@ -555,6 +605,7 @@ border-bottom: none;
 background-color: transparent;
 padding: 1rem 0;
 float: left;
+/* border: 1px solid red; */
 }
 
 .project-links {
@@ -565,6 +616,7 @@ font-size: 1.1em;
 font-weight: 600;
 letter-spacing: 0.1em;
 line-height: 1.75rem;
+/* border: 1px solid red; */
 } 
 
 .project-info {
@@ -576,8 +628,10 @@ line-height: 2.5rem;
 padding-top: 2rem;
 /* margin: 4rem 1rem; */
 /* padding: 1rem; */
-/* max-width: 100%; */
-/* display: block;
-word-wrap: break-word;
-overflow-wrap: break-word; */
+min-width: 100%;
+float: left;
+display: block;
+/* word-wrap: break-word; */
+overflow-wrap: break-word;
+/* border: 1px solid red; */
 }
