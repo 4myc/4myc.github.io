@@ -5,12 +5,6 @@ color: #e7dede;
 /* color: #e9dfdf; */
 box-sizing: border-box;
 /* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
-
-  /* Set neon color for "Hello!" */
-  --neon-text-color: rgb(238, 255, 0);
-  /* --neon-border-color: #08f; */
-  /* --neon-text-color: #f40;
-  --neon-border-color: #08f; */
 }
 
 html, body {
@@ -124,8 +118,6 @@ opacity: 90%;
        -o-transition: transform 0.15s;
           transition: transform 0.15s;
 }
-
-/* a:hover { text-shadow: 0 0 5px #ff0000; } */
 
 .front-dev {
 font-size: 1.7em; 
