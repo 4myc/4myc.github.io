@@ -1,6 +1,6 @@
 * {
 /* background-color: #1c1c1c; */
-background-color: e9e8e8;
+/* background-color: #e9e8e8; */
 color: #e7dede;
 /* color: #e9dfdf; */
 box-sizing: border-box;
@@ -81,7 +81,7 @@ margin-top: 2.5rem;
 }
 
 #hello {
-font-size: 3.6em; 
+font-size: 3.9em; 
 font-style: italic;
 font-weight: 300;
 color:#e9dede;
@@ -274,14 +274,6 @@ color: #e7dede;
 /* border: 1px solid #fff; */
 }
 
-/* DEV SKILL ICONS MEDIA QUERY to add padding around icons when viewed on mobile screens */
-@media only screen and (max-width: 480px) {
-    .skill-icons {
-        display: inline-block;
-        margin: 20px auto;
-    }
-}
-
 
 /* SKILL HOVER TOOLTIP */
 .skill-tooltip {
@@ -359,8 +351,8 @@ opacity: 90%;
 	/* border: 1px solid red; */
   }
 
-
-	.accordion img {
+	/* project images */
+	.accordion .project-image {
 	max-width: 45%;
 	display: block;
 	}
@@ -501,6 +493,11 @@ box-shadow:
   @media only screen and (max-width: 480px) {
   
   body { margin: 0;  }
+
+  .skill-icons {
+	display: inline-block;
+	margin: 20px auto;
+}
   
   .accordion { height: auto; }
   
@@ -520,7 +517,10 @@ box-shadow:
 	width: 100%;
 	overflow-y: visible;
 	}	
+
+
   }
+
 
 .project-name {
 text-align: center;
@@ -557,7 +557,7 @@ float: left;
 /* background-color: #e9e8e8; */
 background-color: transparent;
 color: #2dac1a;
-font-size: 1.1em;
+font-size: 1.3em;
 font-weight: 600;
 letter-spacing: 0.1em;
 line-height: 1.75rem;
@@ -570,7 +570,7 @@ background-color: transparent;
 color: #1c1c1c;
 font-size: 1.25em;
 line-height: 2.5rem;
-padding-top: 2rem;
+padding: 1rem 0rem 2rem 0rem;
 /* margin: 4rem 1rem; */
 /* padding: 1rem; */
 min-width: 100%;
@@ -579,4 +579,11 @@ display: block;
 /* word-wrap: break-word; */
 overflow-wrap: break-word;
 /* border: 1px solid red; */
+}
+
+.project-stack {
+font-size: 1em;
+font-weight: 500; 
+color: #2dac1a;
+padding: -1rem;
 }
