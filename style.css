@@ -47,7 +47,7 @@ letter-spacing: 0.2rem;
 /* links on hover */
 .navbar a:hover {
 /* border-bottom: 4px solid #bde474; */
-border-bottom: 4px solid #95DF4F;
+border-bottom: 2.5px solid #95DF4F;
 color: #68d304;
 opacity: 90%;
 }
@@ -55,15 +55,10 @@ opacity: 90%;
 /* current page styling */
 .navbar a.active {
 /* border-bottom: 4px solid #bde474; */
-border-bottom: 4px solid #95DF4F;
+border-bottom: 2.5px solid #95DF4F;
 opacity: 95%;
 color: #68d304;
 }
-
-/* hide the link that should open and close the navbar on small screens */
-/* .navbar .icon {
-display: none;
-} */
 
 #bio-container {
 margin: 0;
@@ -78,20 +73,8 @@ font-size: 1.71em;
 line-height: 6rem;
 letter-spacing: 0.05rem;
 margin-top: 3rem;
-/* margin: 0 auto; */
-/* width: 100vw; */
-/* text-align: center; */
-/* padding: 2rem 0rem 0rem 0rem; */
 /* border: 1px solid #fff; */
 }
-
-/* BIO RESPONSIVE MEDIA QUERY */
-/* @media only screen and (max-width: 480px) {
-	.bio-container {
-	  padding-top: 12rem;
-	}
-  }
-   */
 
 #bio-details {
 margin-top: 2.5rem;
@@ -538,39 +521,6 @@ box-shadow:
 	overflow-y: visible;
 	}	
   }
-
-/* NAVBAR RESPONSIVE MEDIA QUERY */
-@media only screen and (max-width: 480px) {
-	.navbar a:not(:first-child) {display: none;}
-	.navbar a.icon {
-	  /* float: right; */
-	  display: block;
-	}
-  }
-
-  /* @media only screen and (min-width: 1024px) 
-  and (max-height: 1366px) 
-  and (-webkit-min-device-pixel-ratio: 1.5) {
-	  html {
-		  height: 100vh;
-	  }
-  } */
-  
-/* JavaScript "responsive" class */
-@media screen and (max-width: 480px) {
-.navbar.responsive {position: relative;}
-.navbar.responsive a.icon {
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-.navbar.responsive a {
-	float: none;
-	display: block;
-	text-align: left;
-}
-}
-
 
 .project-name {
 text-align: center;
