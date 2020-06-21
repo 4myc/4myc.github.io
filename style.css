@@ -1,8 +1,8 @@
 * {
 /* background-color: #1c1c1c; */
 /* background-color: #e9e8e8; */
-color: #e7dede;
 /* color: #e9dfdf; */
+color: #e7dede;
 box-sizing: border-box;
 /* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
 }
@@ -83,7 +83,6 @@ margin-top: 2.5rem;
 #hello {
 font-size: 3.9em; 
 font-style: italic;
-font-weight: 300;
 color:#e9dede;
 opacity: 90%;
 }
@@ -402,7 +401,7 @@ box-shadow:
 	display: block;
 	overflow: hidden;
 	width: 100%;
-	background-color: transparent;
+	/* background-color: transparent; */
 	/* background-color: #e9e8e8; slide color */
   }
   
@@ -419,7 +418,7 @@ box-shadow:
 	text-decoration: none;
 	font-family: Open Sans, sans-serif;
 	transition: all 200ms ease;
-	background-color: transparent;
+	/* background-color: transparent; */
 	/* background-color: #e9e8e8; */
   }
   
@@ -438,7 +437,7 @@ box-shadow:
 	transition: all 400ms ease;
 	font-family: 'Montserrat', sans-serif;
 	/* background-color: #e9e8e8; */
-	background-color: transparent;
+	/* background-color: transparent; */
   }
   
   .accordion ul li div div h2 {
@@ -449,7 +448,7 @@ box-shadow:
 	/* margin-bottom: 2px; */
 	/* top: 160px; */
 	/* background-color: #b8b8b8; */
-	background-color: transparent;
+	/* background-color: transparent; */
 	margin: 0;
   }
   
@@ -511,7 +510,7 @@ box-shadow:
 	width: 100%;
 	-webkit-transition: none;
 	transition: none;
-	background-color: transparent;
+	/* background-color: transparent; */
   }
   .accordion ul li {
 	width: 100%;
@@ -524,21 +523,23 @@ box-shadow:
 
 .project-name {
 text-align: center;
-color: #333;
-font-size: 2.25em;
-letter-spacing: 0.25em;
+color: #303030;
+font-size: 3.5em;
+font-weight: 500;
+letter-spacing: 0.15em;
 padding: 1.5rem 0;
 /* background-color: #e9e8e8; */
-background-color: transparent;
+
+/* background-color: transparent; */
 width: 100%;
 /* border: 1px solid red; */
 } 
 
 .project-desc {
 /* background-color: #e9e8e8; */
-background-color: transparent;
-color: #242424;
-font-size: 1.25em;
+/* background-color: transparent; */
+color: #2e2e2e;
+font-size: 1.35em;
 font-weight: 500;
 padding-bottom: 3rem;
 text-align: center;
@@ -547,28 +548,30 @@ text-align: center;
 
 .project-image {
 /* background-color: #e9e8e8; */
-background-color: transparent;
+/* background-color: transparent; */
 padding: 1rem 0;
 float: left;
+/* background-color: red; */
 /* border: 1px solid red; */
 }
 
 .project-links {
 /* background-color: #e9e8e8; */
-background-color: transparent;
+/* background-color: transparent; */
 color: #2dac1a;
 font-size: 1.3em;
-font-weight: 600;
+font-weight: 500;
 letter-spacing: 0.1em;
 line-height: 1.75rem;
+max-width: 100%;
 /* border: 1px solid red; */
 } 
 
 .project-info {
 /* background-color: #e9e8e8; */
-background-color: transparent;
-color: #1c1c1c;
-font-size: 1.25em;
+/* background-color: transparent; */
+color: #303030;
+font-size: 1.3em;
 line-height: 2.5rem;
 padding: 1rem 0rem 2rem 0rem;
 /* margin: 4rem 1rem; */
@@ -577,7 +580,7 @@ min-width: 100%;
 float: left;
 display: block;
 /* word-wrap: break-word; */
-overflow-wrap: break-word;
+/* overflow-wrap: break-word; */
 /* border: 1px solid red; */
 }
 
