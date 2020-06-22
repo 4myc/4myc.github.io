@@ -242,13 +242,14 @@ text-align: center;
 
 #resume-link {
 text-decoration: none;
+/* color:#25b30f; */
 color:#25b30f;
-border-bottom: 1.5px solid #25b30f;
+border-bottom: 1.2px solid #bde474;
 }
 
 .section-header {
 font-size: 1.4em;
-letter-spacing: 0.2em;
+letter-spacing: 0.25em;
 color:#25b30f;
 opacity: 90%;
 margin: 4rem 1rem 2rem 1rem;
@@ -257,7 +258,7 @@ border-bottom: 1.25px solid #bde474;
 
 .sub-header {
 font-size: 1.1rem;
-letter-spacing: 0.4rem;
+letter-spacing: 0.5rem;
 color:#25b30f;
 opacity: 90%;
 margin: 2rem 0rem 0.5rem 3rem;
@@ -543,8 +544,8 @@ text-decoration-color: #d1d1d1;
 /* background-color: transparent; */
 color: #5e5e5e;
 font-size: 1.1em;
-font-weight: 400;
-letter-spacing: 0.09rem;
+font-weight: 500;
+letter-spacing: 0.08rem;
 padding: 2rem 0 0.5rem 0;
 text-align: center;
 overflow-wrap: break-word;
@@ -574,7 +575,7 @@ padding: 0 1rem 2rem 0;
 color:#1fa50b;
 font-size: 1em;
 font-weight: 500;
-letter-spacing: 0.1em;
+letter-spacing: 0.09em;
 line-height: 1.75rem;
 padding: 0 1.5rem;
 /* float: left;
@@ -589,7 +590,7 @@ display: inline-block; */
 color: #5e5e5e;
 font-size: 1em;
 font-weight: 300;
-letter-spacing: 0.1rem;
+letter-spacing: 0.09rem;
 line-height: 2rem;
 padding-left: 2rem;
 /* padding: 1rem 0rem 2rem 0rem; */
