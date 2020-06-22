@@ -522,7 +522,7 @@ padding: 2rem 2rem;
 
 .project-name {
 text-align: center;
-color: #2e2e2e;
+color: #363636;
 font-size: 2.5em;
 font-weight: 400;
 letter-spacing: 0.15em;
@@ -538,7 +538,7 @@ text-decoration-color: #d1d1d1;
 .project-desc {
 /* background-color: #e9e8e8; */
 /* background-color: transparent; */
-color: #383838;
+color: #5e5e5e;
 font-size: 1.15em;
 font-weight: 500;
 padding: 2rem 0 0.5rem 0;
@@ -582,15 +582,15 @@ display: inline-block; */
 .project-info {
 /* background-color: #e9e8e8; */
 /* background-color: transparent; */
-color: #333;
-font-size: 1.1em;
+color: #5e5e5e;
+font-size: 1.05em;
 line-height: 2rem;
 padding-left: 2rem;
 /* padding: 1rem 0rem 2rem 0rem; */
 /* margin: 4rem 1rem; */
 /* padding: 1rem; */
-max-width: 100%;
-margin: 0p
+max-width: 75vw;
+margin: 0;
 /* float: right; */
 /* display: block; */
 /* word-wrap: break-word; */
