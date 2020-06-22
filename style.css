@@ -545,7 +545,7 @@ color: #5e5e5e;
 font-size: 1.1em;
 font-weight: 400;
 letter-spacing: 0.09rem;
-padding: 1.25rem 0 0.5rem 0;
+padding: 2rem 0 0.5rem 0;
 text-align: center;
 overflow-wrap: break-word;
 /* border: 1px solid red; */
@@ -588,9 +588,9 @@ display: inline-block; */
 /* background-color: transparent; */
 color: #5e5e5e;
 font-size: 1em;
+font-weight: 300;
 letter-spacing: 0.1rem;
 line-height: 2rem;
-
 padding-left: 2rem;
 /* padding: 1rem 0rem 2rem 0rem; */
 /* margin: 4rem 1rem; */
