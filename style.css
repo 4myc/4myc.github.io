@@ -208,7 +208,8 @@ opacity: 90%;
 
 #made-with {
 position: relative;
-font-size: 0.7em;
+font-size: 0.65em;
+letter-spacing: 0.05rem;
 margin: 0 auto;
 padding: 12rem 0rem 2rem 0rem;
 min-width: 480px;
@@ -516,16 +517,18 @@ height: 100px;
 }
 
 .accordion .project-content img {
-padding: 2rem 2rem;
+padding: 1rem 1rem;
+margin: 1rem 1.5rem;
+border: 1px solid #d1d1d1;
 /* border: 3px solid red; */
 }
 
 .project-name {
 text-align: center;
-color: #363636;
-font-size: 2.5em;
+color: #4b4a4a;
+font-size: 2.25em;
 font-weight: 400;
-letter-spacing: 0.35rem;
+letter-spacing: 0.5rem;
 padding: 1rem 0;
 width: 100%;
 text-transform: uppercase;
