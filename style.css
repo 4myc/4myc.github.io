@@ -539,9 +539,9 @@ text-decoration-color: #d1d1d1;
 /* background-color: #e9e8e8; */
 /* background-color: transparent; */
 color: #383838;
-font-size: 1.25em;
+font-size: 1.15em;
 font-weight: 500;
-padding: 0.5rem 0;
+padding: 2rem 0 0.5rem 0;
 text-align: center;
 overflow-wrap: break-word;
 /* border: 1px solid red; */
@@ -589,7 +589,8 @@ padding-left: 2rem;
 /* padding: 1rem 0rem 2rem 0rem; */
 /* margin: 4rem 1rem; */
 /* padding: 1rem; */
-max-width: 50%;
+max-width: 100%;
+margin: 0p
 /* float: right; */
 /* display: block; */
 /* word-wrap: break-word; */
