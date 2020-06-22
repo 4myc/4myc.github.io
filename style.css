@@ -130,7 +130,7 @@ opacity: 90%;
 #ui-ux {
 font-size: 1em; 
 letter-spacing: 0.1rem;
-color:#25b30f;
+color:#31af3b;
 opacity: 90%;
 }
 
@@ -138,7 +138,7 @@ opacity: 90%;
 font-size: 1em; 
 letter-spacing: 0.1rem;
 /* color:#bde474; */
-color:#c2ec74;
+color:#b7eb56;
 opacity: 90%;
 }
 
@@ -259,7 +259,7 @@ border-bottom: 1.25px solid #bde474;
 .sub-header {
 font-size: 1.1rem;
 letter-spacing: 0.5rem;
-color:#25b30f;
+color:#b7eb56;
 opacity: 90%;
 margin: 2rem 0rem 0.5rem 3rem;
 }
@@ -439,9 +439,9 @@ max-width: 100%;
 /* text-overflow: ellipsis; */
 position: relative;
 z-index: 5;
-white-space: nowrap;
+/* white-space: nowrap; */
 /* overflow: hidden; */
-/* overflow-y: visible; */
+overflow-y: scroll;
 overflow-wrap: break-word;
 -webkit-transform: translateX(-20px);
 transform: translateX(-20px);
