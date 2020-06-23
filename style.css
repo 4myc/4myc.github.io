@@ -235,7 +235,7 @@ margin: 4rem 0;
 .view-resume {
 font-size: 1.6em;
 font-weight: 500;
-letter-spacing: 0.05em;
+letter-spacing: 0.05rem;
 text-align: center;
 /* border: 1px solid #fff; */
 }
@@ -249,7 +249,7 @@ border-bottom: 1.2px solid #bde474;
 
 .section-header {
 font-size: 1.4em;
-letter-spacing: 0.25em;
+letter-spacing: 0.25rem;
 color:#25b30f;
 opacity: 90%;
 margin: 4rem 1rem 2rem 1rem;
@@ -259,7 +259,7 @@ border-bottom: 1.25px solid #bde474;
 .sub-header {
 font-size: 1.1rem;
 letter-spacing: 0.5rem;
-color:#b7eb56;
+color:#95DF4F;
 opacity: 90%;
 margin: 2rem 0rem 0.5rem 3rem;
 }
@@ -512,15 +512,17 @@ padding: 0 4rem;
 /* ul li div div */
 .project-content {
 background-color: transparent;
-padding-left: 3rem;
+padding: 0 2.5rem 0 2.5rem;
 height: 100px;
+max-width: 80%;
 /* border: 3px solid orange; */
 }
 
 .accordion .project-content img {
 padding: 1rem 1rem;
 margin: 1rem 1.5rem;
-border: 1px solid #d1d1d1;
+border: 1px solid #b4b4b4;
+max-width: 45%;
 /* border: 3px solid red; */
 }
 
@@ -543,9 +545,10 @@ text-decoration-color: #d1d1d1;
 /* background-color: #e9e8e8; */
 /* background-color: transparent; */
 color: #5e5e5e;
-font-size: 1.1em;
-font-weight: 500;
-letter-spacing: 0.08rem;
+font-size: 1.2em;
+font-weight: 400;
+letter-spacing: 0.09rem;
+line-height: 1.75rem;
 padding: 2rem 0 0.5rem 0;
 text-align: center;
 overflow-wrap: break-word;
@@ -553,31 +556,36 @@ overflow-wrap: break-word;
 }
 
 /* set project images width */
-.accordion .project-image {
-/* background-color: #e9e8e8; */
-/* background-color: transparent; */
-max-width: 45%;
+/* .accordion .project-image {
+background-color: #e9e8e8;
+background-color: transparent;
 padding: 0 1rem 2rem 0;
-/* display: block; */
-/* justify-content: space-evenly; */
-/* padding: 1rem 0; */
-/* float: left; */
-/* background-color: red; */
-/* border: 1px solid red; */
+padding: 1rem 1rem;
+margin: 1rem 1.5rem;
+border: 1px solid #b4b4b4;
+max-width: 100%;
+border: 1px solid red;
+} */
+
+.accordion .project-content button {
+border: 1.5px solid #b4b4b4;
+}
+
+.button {
+background-color: #1fa50b;
 }
 
 .project-links {
 /* background-color: #e9e8e8; */
 /* background-color: transparent; */
 /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
-/* background-color: #2dac1a; */
 /* color: #303030; */
 color:#1fa50b;
-font-size: 1em;
+font-size: 0.9rem;
 font-weight: 500;
-letter-spacing: 0.09em;
+letter-spacing: 0.09rem;
 line-height: 1.75rem;
-padding: 0 1.5rem;
+padding: 0.5rem;
 /* float: left;
 display: inline-block; */
 /* max-width: 100%; */
@@ -588,26 +596,23 @@ display: inline-block; */
 /* background-color: #e9e8e8; */
 /* background-color: transparent; */
 color: #5e5e5e;
-font-size: 1em;
+font-size: 1.15em;
 font-weight: 300;
 letter-spacing: 0.09rem;
-line-height: 2rem;
-padding-left: 2rem;
+line-height: 2.5rem;
+padding: 0 0 4rem 2rem;
 /* padding: 1rem 0rem 2rem 0rem; */
 /* margin: 4rem 1rem; */
 /* padding: 1rem; */
-max-width: 75vw;
+/* max-width: 70%; */
 margin: 0;
-/* float: right; */
-/* display: block; */
-/* word-wrap: break-word; */
-overflow-wrap: break-word;
 /* border: 1px solid red; */
 }
 
 .project-stack {
 font-size: 0.95em;
 font-weight: 500; 
+letter-spacing: 0.09rem;
 line-height: 1.75rem;
 text-align: left;
 color:#25b30f;
@@ -620,15 +625,15 @@ color:#25b30f;
 Example: block older browsers from seeing an iPhone or Android phone style sheet. */
 
 /* The keyword ‘only’ can also be used to hide style sheets from older user agents. User agents must process media queries starting with ‘only’ as if the ‘only’ keyword was not present. */
-
 /* RESPONSIVE MEDIA QUERY */
 @media only screen and (max-width: 480px) {
 
 body { margin: 0; }
 
 .navbar {
+border: 1px solid red;
 display: inline-block;
-flex-direction: column;
+flex-direction: flex-end;
 }
 
 /* resume page skill icons - adds spacing between icons for better view on mobile screens */
@@ -661,33 +666,41 @@ flex-direction: column;
 	}	
 
 
-/* .project-slide {
+.project-slide {
 
 }
 
 .project-content {
-overflow-wrap: break-word;
-word-wrap: break-word;
+/* overflow-wrap: break-word;
+word-wrap: break-word; */
 }
 
 .project-name {
-
+font-size: 1.75em;
 } 
 
-.accordion .project-image {
+.accordion .project-content img {
+width: 100%;
+/* display: block; */
 display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .project-desc {
 max-width: 100%;
-overflow-y: visible;
+line-height: 2.5rem;
 }
 
 .project-links {
-display: inline-block;
+max-width: 100%;
+/* font-size: 0.5em; */
+/* margin: 2rem 0; */
+display: flex;
+flex-direction: column;
 } 
 
-.project-info {
+/* .project-info {
 overflow-wrap: break-word;
 overflow-y: visible;
 } */
