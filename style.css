@@ -170,7 +170,7 @@ display: inline-block;
 .contact-tooltip .contact-tooltiptext {
 	/* border: 1px solid red; */
 visibility: hidden;
-/* width: 230px; */
+width: 230px;
 background-color: #73c516;
 opacity: 90%;
 color: #1c1c1c;
