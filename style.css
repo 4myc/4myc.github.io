@@ -102,7 +102,8 @@ opacity: 90%;
       -ms-transform: scale(1.15);
 		  transform: scale(1.15);
 		  /* text-shadow: 0 0 15px #c2ec74; */
-		  color: #c2ec74;
+		  /* color: #c2ec74; */
+		  color:#b7eb56;
 } 
 
 #hello {
@@ -130,7 +131,7 @@ opacity: 90%;
 #ui-ux {
 font-size: 1em; 
 letter-spacing: 0.1rem;
-color:#31af3b;
+color:#36be42;
 opacity: 90%;
 }
 
@@ -167,8 +168,9 @@ display: inline-block;
 }
 
 .contact-tooltip .contact-tooltiptext {
+	/* border: 1px solid red; */
 visibility: hidden;
-width: 230px; /* tooltip stretches to fit text if width isn't set*/
+/* width: 230px; */
 background-color: #73c516;
 opacity: 90%;
 color: #1c1c1c;
@@ -214,7 +216,7 @@ margin: 0 auto;
 padding: 12rem 0rem 2rem 0rem;
 min-width: 480px;
 text-align: center;
-color: #696969;
+color: #525252;
 /* border: 1px solid #fff; */
 }
 
@@ -351,6 +353,7 @@ opacity: 90%;
 width: 100vw;
 height: 100vh;
 margin: 0;
+/* bottom: 0; */
 /* width: 100%; */
 /* max-width: 1080px; */
 /* height: 350px; */
@@ -406,6 +409,7 @@ box-shadow:
 .accordion ul li div {
 display: block;
 overflow: hidden;
+position: sticky;
 width: 100%;
 /* background-color: transparent; */
 /* background-color: #e9e8e8; slide color */
@@ -515,6 +519,7 @@ background-color: transparent;
 padding: 0 2.5rem 0 2.5rem;
 height: 100px;
 max-width: 80%;
+
 /* border: 3px solid orange; */
 }
 
@@ -545,9 +550,9 @@ text-decoration-color: #d1d1d1;
 /* background-color: #e9e8e8; */
 /* background-color: transparent; */
 color: #5e5e5e;
-font-size: 1.2em;
+font-size: 1.1em;
 font-weight: 400;
-letter-spacing: 0.09rem;
+letter-spacing: 0.1rem;
 line-height: 1.75rem;
 padding: 2rem 0 0.5rem 0;
 text-align: center;
@@ -568,22 +573,27 @@ border: 1px solid red;
 } */
 
 .accordion .project-content button {
-border: 1.5px solid #b4b4b4;
+/* background-color: #1fa50b;
+border: 1.5px solid #b4b4b4; */
+/* border: 3px solid red; */
+margin: 0 1rem;
 }
 
-.button {
+/* .button {
 background-color: #1fa50b;
-}
+} */
 
 .project-links {
-/* background-color: #e9e8e8; */
 /* background-color: transparent; */
 /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
-/* color: #303030; */
-color:#1fa50b;
+/* background-color: #b7eb56; */
+/* border: 1px solid #95DF4F; */
+color: #646464;
+/* color: #d6d6d6; */
+/* color:#1fa50b; */
 font-size: 0.9rem;
 font-weight: 500;
-letter-spacing: 0.09rem;
+letter-spacing: 0.15rem;
 line-height: 1.75rem;
 padding: 0.5rem;
 /* float: left;
@@ -592,14 +602,27 @@ display: inline-block; */
 /* border: 1px solid red; */
 } 
 
+.button {
+/* border: 1.5px solid #b4b4b4; */
+/* border: 1.5px solid #95DF4F; */
+background-color: #95DF4F;
+border: 1.5px solid #d8d8d8;
+border-radius: 2.5px;
+text-transform: uppercase;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+transition: all 0.3s ease 0s;
+cursor: pointer;
+outline: none;
+}
+
 .project-info {
 /* background-color: #e9e8e8; */
 /* background-color: transparent; */
 color: #5e5e5e;
-font-size: 1.15em;
+font-size: 1.06em;
 font-weight: 300;
-letter-spacing: 0.09rem;
-line-height: 2.5rem;
+letter-spacing: 0.1rem;
+line-height: 2.25rem;
 padding: 0 0 4rem 2rem;
 /* padding: 1rem 0rem 2rem 0rem; */
 /* margin: 4rem 1rem; */
@@ -631,7 +654,7 @@ Example: block older browsers from seeing an iPhone or Android phone style sheet
 body { margin: 0; }
 
 .navbar {
-border: 1px solid red;
+/* border: 1px solid red; */
 display: inline-block;
 flex-direction: flex-end;
 }
