@@ -520,8 +520,29 @@ max-width: 45%;
 padding: 1rem 1rem;
 margin: 1rem 1.5rem;
 border: 1px solid #b4b4b4;
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 /* border: 3px solid red; */
 }
+
+/* For small devices (e.g. smartphones) */
+img {
+	max-width: 100%;
+	display: inline-block;
+  }
+  /* For medium devices (e.g. tablets) */
+  @media (min-width: 420px) {
+	img {
+	  max-width: 100%;
+	}
+  }
+  /* For large devices (e.g. desktops) */
+  @media (min-width: 760px) {
+	img {
+	  max-width: 100%;
+	}
+  }
+
+
 
 .project-name {
 text-align: center;
@@ -572,7 +593,7 @@ line-height: 1.75rem;
 padding: 0.5rem;
 }
 
-.project-info {
+.project-info-container {
 /* background-color: #e9e8e8; */
 /* background-color: transparent; */
 color: #5e5e5e;
@@ -586,7 +607,7 @@ margin: 0;
 /* border: 1px solid red; */
 }
 
-.project-stack {
+.project-info{
 font-size: 0.95em;
 font-weight: 500; 
 letter-spacing: 0.09rem;
@@ -596,6 +617,9 @@ color:#25b30f;
 /* border: 1px solid red; */
 /* color: #25b30f; */
 }
+
+
+
 
 
 /* only screen: The only keyword is used to prevent older browsers that do not support media queries with media features from applying the specified styles. 
@@ -637,27 +661,23 @@ flex-direction: flex-end;
 .accordion ul li {
 	width: 100vw;
 	height: auto;
-	/* overflow-wrap: break-word; */
 	overflow-y: auto;
 	}	
 
 .project-name {
-font-size: 1.75em;
+font-size: 1.4em;
 } 
 
 .accordion .project-content img {
-margin: 0;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
+	max-width: 100%;
+	margin: 0;
+	height: auto;
+	display: flex;
+	align-items: center;;
+	}
 
 .accordion .project-content button {
-font-size: 0.6em;
-}
-
-.accordion .project-content a {
-font-size: 0.6em;
+margin: 0.5rem;
 }
 
 .project-desc {
