@@ -220,7 +220,7 @@ font-size: 0.65em;
 letter-spacing: 0.05rem;
 margin: 0 auto;
 padding: 13rem 0rem 0rem 0rem;
-/* bottom: 1.5rem; */
+bottom: 2rem;
 min-width: 480px;
 text-align: center;
 color: #525252;
@@ -563,7 +563,7 @@ color:#25b30f;
 border: 1px solid #cacaca;
 border-radius: 2.5px;
 box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-transition: all 0.3s ease 0s;
+transition: all 0.35s ease 0s;
 cursor: pointer;
 outline: none;
 text-transform: uppercase;
@@ -606,9 +606,10 @@ Example: block older browsers from seeing an iPhone or Android phone style sheet
 
 /* The keyword ‘only’ can also be used to hide style sheets from older user agents. User agents must process media queries starting with ‘only’ as if the ‘only’ keyword was not present. */
 /* RESPONSIVE MEDIA QUERY */
-@media only screen and (max-width: 420px) {
+/* 480px screen width and smaller */
+@media only screen and (max-width: 480px) {
 
-body { margin: 0;}
+body { margin: 0; }
 
 .navbar {
 /* border: 1px solid red; */
@@ -616,11 +617,11 @@ display: inline-block;
 justify-content: flex-end;
 }
 
-/* .bio {
+.bio {
 width: 100%;
-padding: 0 10rem;
+padding: 0 4rem;
 margin: 0;
-} */
+}
 
 /* resume page skill icons - adds spacing between icons for better view on mobile screens */
 .skill-icons {
@@ -637,6 +638,16 @@ margin: 20px auto;
 display: inline-block;
 margin: 20px auto;
 }
+
+.accordion .project-content img {
+	max-width: 100%;
+	padding: 1rem 1rem;
+	margin: 1rem 1.5rem;
+	border: 1px solid #b4b4b4;
+	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+	/* border: 3px solid red; */
+	}
+	
 
 /* accordion slider */
 .accordion { height: auto; white-space:normal; }
@@ -660,7 +671,7 @@ margin: 20px auto;
 	}	
 
 .project-name {
-font-size: 1.1em;
+font-size: 1em;
 } 
 
 .project-desc {
@@ -669,11 +680,39 @@ line-height: 2.75rem;
 }
 
 .accordion .project-content img {
-	max-width: 100%;
-	margin: 1rem 0;
-	display: inline-block;
+	width: 100%
+	/* max-width: 100vw; */
+	margin: 0;
+	/* display: inline-block; */
 	/* height: auto; */
 	/* display: flex;
 	align-items: center; */
 	}
+}
+
+/* iPad */
+@media only screen and (max-width: 1024px) {
+	body { margin: 0; }
+
+.skill-icons {
+	display: inline-block;
+	margin: 20px auto;
+	}
+
+.design-skills {
+	display: inline-block;
+	margin: 20px auto;
+	}
+
+.project-links {
+	display: inline-block;
+	margin: 20px auto;
+	}
+
+}
+
+/* iPad Pro */
+@media only screen and (max-width: 1366px) {
+	body { margin: 0; }
+
 }
