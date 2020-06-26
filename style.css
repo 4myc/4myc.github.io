@@ -233,7 +233,7 @@ color: #757575;
 .grid-wrapper {
 display: grid;
 grid-template-columns: auto auto auto;
-margin: 3rem 0;
+margin: 2.5rem 0;
 /* border: 1px solid #fff; */
 }
 
@@ -273,7 +273,7 @@ margin: 1.5rem 0rem 3rem 2rem;
 }
 
 .icon-row .design-skills img {
-width: 60px; 
+width: 50px; 
 margin: 0 1.8rem; 
 background-color: #e7dede;
 }
@@ -282,7 +282,7 @@ background-color: #e7dede;
 padding: 0 2rem;
 display: inline;
 /* max-width: 480px; */
-font-size: 3.2em;
+font-size: 2.7em;
 color: #e7dede;
 /* border: 1px solid #fff; */
 }
