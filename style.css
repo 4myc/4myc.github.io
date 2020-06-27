@@ -138,7 +138,7 @@ opacity: 90%;
 font-size: 1em; 
 font-weight: 500;
 letter-spacing: 0.1rem;
-color:#36be42;
+color:#3cc448;
 opacity: 90%;
 }
 
@@ -436,7 +436,7 @@ box-sizing: border-box;
 /* color: #fff; */
 /* color: #c4c4c4; */
 /* color: #c4c4c4; */
-color: #e8e8e8;
+color: #e2e2e2;
 transition: all 200ms ease;
 /* background-color: transparent; */
 /* background-color: #e9e8e8; */
@@ -484,9 +484,9 @@ background-color: transparent;
 .accordion li:nth-child(2) { background: #1c1c1c;}
 .accordion li:nth-child(3) { background: #1c1c1c;} */
 
-.accordion li:nth-child(1) { background: #2dac1a; opacity: 85%;}
-.accordion li:nth-child(2) { background: #68d204; opacity: 85%;}
-.accordion li:nth-child(3) { background: #95DF4F; opacity: 85%;}
+.accordion li:nth-child(1) { background: #2dac1a; opacity: 88%;}
+.accordion li:nth-child(2) { background: #68d204; opacity: 88%;}
+.accordion li:nth-child(3) { background: #95DF4F; opacity: 88%;}
 
 .accordion ul:hover li { width: 8%; }
 
@@ -499,7 +499,7 @@ opacity: 1;
 -webkit-transform: translateX(0);
 transform: translateX(0);
 /* background-color: transparent; */
-background-color: #e8e8e8;
+background-color: #e2e2e2;
 /* padding-left: 3.5rem; */
 /* overflow-wrap: break-word; */
 }
@@ -604,15 +604,21 @@ vertical-align: middle;
 }
 
 
+/* RESPONSIVE MEDIA QUERIES */
 /* only screen: The only keyword is used to prevent older browsers that do not support media queries with media features from applying the specified styles. 
 Example: block older browsers from seeing an iPhone or Android phone style sheet. */
-
 /* The keyword ‘only’ can also be used to hide style sheets from older user agents. User agents must process media queries starting with ‘only’ as if the ‘only’ keyword was not present. */
-/* RESPONSIVE MEDIA QUERY */
-/* 480px screen width and smaller */
-@media only screen and (max-width: 480px) {
 
-body { margin: 0; }
+/* max-width: set width and smaller */
+/* min-width: set width and larger */
+
+/* ----------- iPhone 4 & 5 ----------- */
+/* iPhone 4+ 320 x 480 */
+/* iPhone 5+ 320 x 568 */
+@media only screen 
+  and (max-width: 320px) {
+
+html, body { margin: 0; }
 
 .navbar {
 /* border: 1px solid red; */
@@ -651,7 +657,6 @@ margin: 20px auto;
 	/* border: 3px solid red; */
 	}
 	
-
 /* accordion slider */
 .accordion { height: auto; white-space:normal; }
 
@@ -693,7 +698,61 @@ line-height: 2.75rem;
 	}
 }
 
-/* iPad */
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+}
+
+/* ----------- iPad viewport  ----------- */
 @media only screen and (max-width: 1024px) {
 	body { margin: 0; }
 
@@ -714,8 +773,8 @@ line-height: 2.75rem;
 
 }
 
-/* iPad Pro */
-@media only screen and (max-width: 1366px) {
+/* ----------- iPad Pro viewport 1366h x 1024w ----------- */
+@media only screen and (max-width: 1024px) {
 	body { margin: 0; }
 
 }
