@@ -2,8 +2,6 @@
 /* background-color: #121212; */
 /* background-color: #e8e8e8; */
 /* color: #e9dfdf; */
-/* color: #c4c4c4; */
-/* color: #fff; */
 color: #c4c4c4;
 box-sizing: border-box;
 /* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
@@ -70,10 +68,6 @@ opacity: 87%;
 color: #2ca719;
 }
 
-.fa-home .active {
-color: #2ca719;
-}
-
 #bio-container {
 margin: 0;
 padding: 0 6rem;
@@ -108,10 +102,10 @@ opacity: 82%;
 
 #hello:hover,
 #hello:focus {
-  -webkit-transform: scale(1.25);
-     -moz-transform: scale(1.25);
-      -ms-transform: scale(1.25);
-		  transform: scale(1.25);
+  -webkit-transform: scale(1.2);
+     -moz-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+		  transform: scale(1.2);
 		  /* text-shadow: 0 0 15px #c2ec74; */
 		  /* color: #c2ec74; */
 		  color:#b7eb56;
@@ -226,7 +220,6 @@ visibility: visible;
 opacity: 90%;
 }
 
-
 #made-with {
 position: relative;
 font-size: 0.65em;
@@ -247,11 +240,12 @@ color: #757575;
 }
 
 
-/* RESUME PAGE */
+/* ----------- RESUME PAGE ----------- */
 .grid-wrapper {
 display: grid;
-/* grid-template-columns: 20% auto 20%; */
-grid-template-columns: 0.5fr auto 0.5fr;
+grid-template-columns: 20% auto 20%;
+/* grid-template-columns: 10% auto 10%; */
+/* grid-template-columns: 0.5fr auto 0.5fr; */
 margin: 2.5rem 0;
 /* border: 1px solid #fff; */
 }
@@ -379,7 +373,7 @@ opacity: 95%;
 }
 
 
-/* WORK PAGE */
+/* ----------- WORK PAGE ----------- */
 /* RESPONSIVE ACCORDION SLIDER */
 .accordion {
 max-width: 100vw;
@@ -640,7 +634,11 @@ vertical-align: middle;
 }
 
 
-/* RESPONSIVE MEDIA QUERIES */
+/* ----------- RESPONSIVE MEDIA QUERIES ----------- */
+/* https://www.browserstack.com/responsive-design */
+/* https://www.browserstack.com/responsive */
+/* https://designmodo.com/responsive-test/ */
+
 /* only screen: The only keyword is used to prevent older browsers that do not support media queries with media features from applying the specified styles. 
 Example: block older browsers from seeing an iPhone or Android phone style sheet. */
 /* The keyword ‘only’ can also be used to hide style sheets from older user agents. User agents must process media queries starting with ‘only’ as if the ‘only’ keyword was not present. */
@@ -649,8 +647,8 @@ Example: block older browsers from seeing an iPhone or Android phone style sheet
 /* min-width: set width and larger */
 
 /* ----------- iPhone 4 & 5 ----------- */
-/* iPhone 4+ 320 x 480 */
-/* iPhone 5+ 320 x 568 */
+/* iPhone 4: 320 x 480 */
+/* iPhone 5: 320 x 568 */
 @media only screen 
   and (max-width: 320px) {
 
@@ -724,15 +722,18 @@ line-height: 2.75rem;
 }
 
 .accordion .project-content img {
-	width: 100%;
-	/* max-width: 100vw; */
-	margin: 0;
-	/* display: inline-block; */
-	/* height: auto; */
-	/* display: flex;
-	align-items: center; */
-	}
+width: 100%;
+/* max-width: 100vw; */
+margin: 0;
+/* display: inline-block; */
+/* height: auto; */
+/* display: flex;
+align-items: center; */
 }
+
+}
+
+
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 /* Portrait and Landscape */
@@ -791,12 +792,13 @@ line-height: 2.75rem;
 /* ----------- iPad viewport  ----------- */
 @media only screen and (max-width: 1024px) {
 	body { margin: 0; }
-	.grid-wrapper {
-		display: grid;
-		grid-template-columns: auto auto auto;
-		/* margin: 2.5rem 0; */
-		/* border: 1px solid #fff; */
-		}
+
+.grid-wrapper {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	/* margin: 2.5rem 0; */
+	/* border: 1px solid #fff; */
+	}
 
 .skill-icons {
 	display: inline-block;
@@ -815,81 +817,90 @@ line-height: 2.75rem;
 
 }
 
-
 /* ----------- iPad viewport  ----------- */
 @media only screen and (max-width: 768px) {
-	body { margin: 0; }
-	.grid-wrapper {
-		display: grid;
-		grid-template-columns: 5% auto 5%;
-		/* margin: 2.5rem 0; */
-		/* border: 1px solid #fff; */
-		}
-		.skill-icons {
-			display: inline-block;
-			margin: 20px auto;
-			}
+
+body { margin: 0; }
+
+.grid-wrapper {
+display: grid;
+grid-template-columns: 5% auto 5%;
+/* margin: 2.5rem 0; */
+/* border: 1px solid #fff; */
+}
+.skill-icons {
+display: inline-block;
+margin: 20px auto;
+}
 
 .design-skills {
-	display: inline-block;
-	margin: 20px auto;
-	}
+display: inline-block;
+margin: 20px auto;
+}
 
 .project-links {
-	display: inline-block;
-	margin: 20px auto;
-	}
-
+display: inline-block;
+margin: 20px auto;
+}
 
 .view-resume {
-	margin-top: 2rem;
-	}
+margin-top: 2rem;
+}
 
 }
 
 /* ----------- iPad Pro viewport 1366h x 1024w ----------- */
 @media only screen and (max-width: 1024px) {
-	body { margin: 0; }
-	
-	.grid-wrapper {
-		display: grid;
-		grid-template-columns: auto auto auto;
-		/* margin: 2.5rem 0; */
-		/* border: 1px solid #fff; */
-		}
 
-	.icon-row {
-		max-width: 100%;
-		margin:0;
-		}
+body { margin: 0; }
 
-		.icon-row .design-skills img {
-			width: 50px; 
-			/* margin: 0rem 1.75rem;  */
-			vertical-align: bottom;
-			background-color: #c4c4c4;
-			}
-			
-			.skill-icons {
-				display: inline-block;
-				margin: 20px auto;
-				}
+.grid-wrapper {
+display: grid;
+grid-template-columns: auto auto auto;
+/* margin: 2.5rem 0; */
+/* border: 1px solid #fff; */
+}
+
+.icon-row {
+max-width: 100%;
+margin:0;
+}
+
+.icon-row .design-skills img {
+width: 50px; 
+/* margin: 0rem 1.75rem;  */
+vertical-align: bottom;
+background-color: #c4c4c4;
+}
+
+.skill-icons {
+display: inline-block;
+margin: 20px auto;
+}
 
 }
 
 /* ----------- 1440w ----------- */
 @media only screen and (max-width: 1400px) {
-	body { margin: 0; }
-	.grid-wrapper {
-		display: grid;
-		grid-template-columns: 5% auto 5%;
-		/* margin: 2.5rem 0; */
-		/* border: 1px solid #fff; */
-		}
 
-		.skill-icons {
-			display: inline-block;
-			margin: 20px auto;
-			}
+body { margin: 0; }
+
+.grid-wrapper {
+display: grid;
+grid-template-columns: 5% auto 5%;
+/* margin: 2.5rem 0; */
+/* border: 1px solid #fff; */
+}
+
+.skill-icons {
+display: inline-block;
+margin: 20px auto;
+}
+
+}
+
+/* ----------- MacOS Desktop 1920w x 1080h ----------- */
+@media only screen and (max-width: 1920px) {
+	body { margin: 0; }
 
 }
