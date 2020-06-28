@@ -55,17 +55,20 @@ letter-spacing: 0.2rem;
 /* links on hover */
 .navbar a:hover {
 /* border-bottom: 4px solid #bde474; */
-border-bottom: 2.5px solid #95DF4F;
-color: #2ca719;
+border-bottom: 2.5px solid #78C257;
+/* color: #2ca719; */
+color: #107C10;
 opacity: 87%;
 }
 
 /* current page styling */
 .navbar a.active {
 /* border-bottom: 4px solid #bde474; */
-border-bottom: 2.5px solid #95DF4F;
+/* border-bottom: 2.5px solid #95DF4F; */
+border-bottom: 2.5px solid #78C257;
 opacity: 87%;
-color: #2ca719;
+/* color: #2ca719; */
+color: #107C10;
 }
 
 #bio-container {
@@ -108,7 +111,10 @@ opacity: 82%;
 		  transform: scale(1.2);
 		  /* text-shadow: 0 0 15px #c2ec74; */
 		  /* color: #c2ec74; */
-		  color:#b7eb56;
+		  /* color:#b7eb56; */
+		  color:#d1fd80;
+		  /* color:#c8fc69; */
+		  opacity: 65%;
 } 
 
 #hello {
@@ -122,24 +128,25 @@ opacity: 82%;
 font-size: 1.9em; 
 font-weight: 500;
 letter-spacing: 0.15rem;
-color:#68d304;
-opacity: 82%;
+color:#6acc0f;
+/* color:#78C257; */
+opacity: 87%;
 }
 
 #full-stack {
 font-size: 1.1em; 
 /* font-weight: 500; */
 letter-spacing: 0.1rem;
-color:#0b8f25;
-opacity: 90%;
+color:#107C10;
+/* opacity: 90%; */
 }
 
 #ui-ux {
 font-size: 1em; 
 /* font-weight: 500; */
 letter-spacing: 0.1rem;
-color:#0cd34f;
-opacity: 80%;
+color:#25D366;
+opacity: 85%;
 }
 
 #design {
@@ -147,7 +154,9 @@ font-size: 1em;
 /* font-weight: 500; */
 letter-spacing: 0.1rem;
 /* color:#bde474; */
-color:#b7eb56;
+/* color:#81e013; */
+/* color:#b8ee53; */
+color:#94e66f;
 opacity: 80%;
 }
 
@@ -230,13 +239,13 @@ bottom: 1rem;
 min-width: 480px;
 max-height: 100vh;
 text-align: center;
-color: #525252;
+color: #494949;
 /* border: 1px solid #fff; */
 }
 
 .made-with-icon {
 padding: 0.25rem;
-color: #757575;
+color: #555;
 }
 
 
@@ -266,28 +275,32 @@ padding: 1.5rem 0;
 
 #resume-link {
 text-decoration: none;
-color:#95DF4F;
-opacity: 75%;
+color:#78C257;
+opacity: 87%;
 border-bottom: 1.2px solid #bde474;
+/* border-bottom: 1.2px solid #78C257; */
 }
 
 .section-header {
 font-size: 1.4em;
 letter-spacing: 0.15rem;
 /* font-weight: 300; */
-color:#0b8f25;
-opacity: 85%;
+color:#107C10;
+/* opacity: 90%; */
 margin: 3.5rem 0.75rem 0rem 0.75rem;
-border-bottom: 1.25px solid #bde474;
+border-bottom: 1px solid #bde474;
+/* border-bottom: 1.25px solid #78C257; */
+/* border-bottom: 1.25px solid #89d821; */
 }
 
 .sub-header {
 font-size: 1.1rem;
 letter-spacing: 0.4rem;
 font-weight: 300;
-color:#95DF4F;
-opacity: 85%;
-margin: 2rem 0rem 0.5rem 3rem;
+/* color:#95DF4F; */
+color:#78C257;
+opacity: 80%;
+margin: 2rem 0rem 0.5rem 3.5rem;
 }
 
 .icon-row {
@@ -387,7 +400,8 @@ position: sticky;
 /* overflow: hidden; */
 /* margin: 50px auto; */
 /* background-color: #e8e8e8; */
-background-color: whitesmoke;
+/* background-color: whitesmoke; */
+background-color: #e2e2e2;
 /* opacity: 90%; */
 /* border: 1px solid red; */
 }
@@ -457,7 +471,7 @@ padding: 15px 20px;
 box-sizing: border-box;
 /* color: #fff; */
 /* color: #c4c4c4; */
-color: #e2e2e2;
+/* color: #e2e2e2; */
 /* color: whitesmoke; */
 transition: all 200ms ease;
 /* background-color: transparent; */
@@ -509,6 +523,8 @@ background-color: transparent;
 .accordion li:nth-child(1) { background: #2fb91a;}
 .accordion li:nth-child(2) { background: #68d204;}
 .accordion li:nth-child(3) { background: #95DF4F;}
+/* .accordion li:nth-child(4) { background: #68d204;} */
+/* .accordion li:nth-child(#) { background: #78C257;}*/
 
 .accordion ul:hover li { width: 8%; }
 
@@ -554,7 +570,7 @@ box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
 
 .project-name {
 text-align: center;
-color: #3f3f3f;
+color: #5a5a5a;
 font-size: 2.25em;
 font-weight: 400;
 letter-spacing: 0.5rem;
@@ -567,7 +583,7 @@ text-transform: uppercase;
 } 
 
 .project-desc {
-color: #4a4a4a;
+color: #5e5e5e;
 font-size: 1.1em;
 font-weight: 400;
 letter-spacing: 0.1rem;
@@ -595,7 +611,7 @@ margin: 0 1rem;
 }
 
 .accordion .project-content a:hover {
-color: #29ad14;
+color: #2ca719;
 opacity: 87%;
 }
 
@@ -603,11 +619,12 @@ opacity: 87%;
 /* background-color: #e8e8e8; */
 /* background-color: transparent; */
 /* text-align: right; */
-color: #4e4e4e;
+/* color: #4e4e4e; */
+color: #797979;
 font-size: 1.1em;
-font-weight: 300;
+font-weight: 400;
 letter-spacing: 0.1rem;
-line-height: 2.5rem;
+line-height: 2.4rem;
 padding: 1rem 0 4rem 2rem;
 width: 95%;
 margin: 0;
@@ -616,20 +633,33 @@ float: left;
 /* border: 1px solid red; */
 }
 
-.project-stack{
+.project-stack-header {
+font-size: 1em;
+font-weight: 500; 
+letter-spacing: 0.09rem;
+text-align: left;
+color: #747474;
+/* color:#78C257; */
+/* opacity: 87%; */
+/* border: 1px solid red; */
+}
+
+.project-stack {
 font-size: 1.1em;
 font-weight: 400; 
 letter-spacing: 0.09rem;
-text-align: left;
 color:#2ca719;
-opacity: 87%;
+/* color:#78C257; */
+/* opacity: 87%; */
 /* border: 1px solid red; */
 }
 
 .project-bullet {
 color:#2ca719; 
-opacity: 87%;
+/* color:#78C257;  */
+/* opacity: 87%; */
 font-size: 1.5em; 
+font-weight: 300;
 vertical-align: middle;
 }
 
@@ -646,11 +676,9 @@ Example: block older browsers from seeing an iPhone or Android phone style sheet
 /* max-width: set width and smaller */
 /* min-width: set width and larger */
 
-/* ----------- iPhone 4 & 5 ----------- */
-/* iPhone 4: 320 x 480 */
-/* iPhone 5: 320 x 568 */
-@media only screen 
-  and (max-width: 320px) {
+/* ----------- iPhone 4 and 4S (320 x 480) ----------- */
+/* ----------- iPhone 5, 5S, 5C and 5SE (320 x 568) ----------- */
+@media only screen and (max-width: 320px) {
 
 html, body { margin: 0; }
 
@@ -734,13 +762,13 @@ align-items: center; */
 }
 
 
-
-/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* ----------- iPhone 6+, 7+ and 8+ (414 x 736) ----------- */
 /* Portrait and Landscape */
 @media only screen 
   and (min-width: 414px) 
   and (max-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
+
 
 }
 
@@ -750,6 +778,11 @@ align-items: center; */
   and (max-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
+
+.project-name {
+	font-size: 1em;
+	} 
+	
 
 }
 
@@ -762,7 +795,7 @@ align-items: center; */
 
 }
 
-/* ----------- iPhone X ----------- */
+/* ----------- iPhone X (375 x 812) ----------- */
 /* Portrait and Landscape */
 @media only screen 
   and (min-width: 375px) 
@@ -789,9 +822,10 @@ align-items: center; */
 
 }
 
-/* ----------- iPad viewport  ----------- */
+/* ----------- iPad, 10" Landscape (768 x 1024) ----------- */
 @media only screen and (max-width: 1024px) {
-	body { margin: 0; }
+
+html, body { margin: 0; }
 
 .grid-wrapper {
 	display: grid;
@@ -817,10 +851,10 @@ align-items: center; */
 
 }
 
-/* ----------- iPad viewport  ----------- */
+/* ----------- iPad, 10" Portrait (768 x 1024) ----------- */
 @media only screen and (max-width: 768px) {
 
-body { margin: 0; }
+html, body { margin: 0; }
 
 .grid-wrapper {
 display: grid;
@@ -849,10 +883,10 @@ margin-top: 2rem;
 
 }
 
-/* ----------- iPad Pro viewport 1366h x 1024w ----------- */
+/* ----------- iPad Pro, 10" Portrait (1024 x 1366) ----------- */
 @media only screen and (max-width: 1024px) {
 
-body { margin: 0; }
+html, body { margin: 0; }
 
 .grid-wrapper {
 display: grid;
@@ -880,10 +914,17 @@ margin: 20px auto;
 
 }
 
+/* ----------- MacOS Desktop (1920w x 1080h) ----------- */
+@media only screen and (max-width: 1920px) {
+
+html, body { margin: 0; }
+
+}
+
 /* ----------- 1440w ----------- */
 @media only screen and (max-width: 1400px) {
 
-body { margin: 0; }
+html, body { margin: 0; }
 
 .grid-wrapper {
 display: grid;
@@ -899,8 +940,9 @@ margin: 20px auto;
 
 }
 
-/* ----------- MacOS Desktop 1920w x 1080h ----------- */
+/* ----------- Samsung Galaxy S5 (360 x 640) ----------- */
 @media only screen and (max-width: 1920px) {
-	body { margin: 0; }
+
+html, body { margin: 0; }
 
 }
