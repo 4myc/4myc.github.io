@@ -44,7 +44,7 @@ display: block;
 color: #c4c4c4;
 opacity: 87%;
 margin: 0.5rem 1rem;
-padding: 5px 5px;
+padding: 5px 0;
 text-align: center;
 text-decoration: none;
 font-size: 0.9em;
@@ -58,7 +58,7 @@ letter-spacing: 0.2rem;
 border-bottom: 2.5px solid #78C257;
 /* color: #2ca719; */
 color: #107C10;
-opacity: 87%;
+/* opacity: 90%; */
 }
 
 /* current page styling */
@@ -66,9 +66,9 @@ opacity: 87%;
 /* border-bottom: 4px solid #bde474; */
 /* border-bottom: 2.5px solid #95DF4F; */
 border-bottom: 2.5px solid #78C257;
-opacity: 87%;
 /* color: #2ca719; */
-color: #107C10;
+color:#107C10;
+/* opacity: 90%; */
 }
 
 #bio-container {
@@ -101,6 +101,7 @@ font-weight: 300;
 font-style: italic;
 color:#c4c4c4;
 opacity: 82%;
+padding: 1rem 0;
 }
 
 #hello:hover,
@@ -146,7 +147,7 @@ font-size: 1em;
 /* font-weight: 500; */
 letter-spacing: 0.1rem;
 color:#25D366;
-opacity: 85%;
+opacity: 80%;
 }
 
 #design {
@@ -234,7 +235,7 @@ position: relative;
 font-size: 0.65em;
 letter-spacing: 0.05rem;
 margin: 0 auto;
-padding-top: 15rem;
+padding-top: 14rem;
 bottom: 1rem;
 min-width: 480px;
 max-height: 100vh;
@@ -300,11 +301,11 @@ font-weight: 300;
 /* color:#95DF4F; */
 color:#78C257;
 opacity: 80%;
-margin: 2rem 0rem 0.5rem 3.5rem;
+margin: 2rem 0rem 0.5rem 6rem;
 }
 
 .icon-row {
-padding: 1rem 1.75rem 0.5rem 1.75rem;
+padding: 1rem 4.25rem 0.5rem 4.25rem;
 max-width: 100%;
 }
 
@@ -323,6 +324,21 @@ font-size: 2.7em;
 color: #c4c4c4;
 opacity: 90%;
 /* border: 1px solid #fff; */
+}
+
+.material-icon {
+width: 55px; 
+margin: 0 2rem; 
+vertical-align: bottom; 
+opacity: 75%;
+}
+
+.semantic-icon {
+width: 41px; 
+margin: 0 2rem; 
+vertical-align: bottom; 
+padding-bottom: 2px; 
+opacity: 92%;
 }
 
 /* SKILL HOVER TOOLTIP */
