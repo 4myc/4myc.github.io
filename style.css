@@ -40,6 +40,7 @@ overflow: hidden;
 /* links inside the navbar */
 .navbar a {
 /* position: absolute; */
+position: sticky;
 float: right;
 display: block;
 color: #c4c4c4;
@@ -107,20 +108,20 @@ opacity: 82%;
 
 #hello:hover,
 #hello:focus {
-  -webkit-transform: scale(1.15);
-     -moz-transform: scale(1.15);
-      -ms-transform: scale(1.15);
-		  transform: scale(1.15);
+  -webkit-transform: scale(1.25);
+     -moz-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+		  transform: scale(1.25);
 		  /* text-shadow: 0 0 15px #c2ec74; */
 		  /* color: #c2ec74; */
 		  color:#b7eb56;
 } 
 
 #hello {
-  -webkit-transition: transform 0.2s;
-     -moz-transition: transform 0.2s;
-       -o-transition: transform 0.2s;
-          transition: transform 0.2s;
+  -webkit-transition: transform 0.1s;
+     -moz-transition: transform 0.1s;
+       -o-transition: transform 0.1s;
+          transition: transform 0.1s;
 }
 
 .front-dev {
@@ -202,12 +203,12 @@ margin-bottom: 10px;
 
 /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
 opacity: 0;
-transition: opacity 0.75s ease-in-out;
--webkit-transition: opacity 0.75s ease-in-out; 
+transition: opacity 0.6s ease-in-out;
+-webkit-transition: opacity 0.6s ease-in-out; 
 /* border: 0.5px solid #121212; */
 }
 
-.contact-tooltip .contact-tooltiptext::after {
+.contact-tooltip .contact-tooltiptext:after {
 content: " ";
 position: absolute;
 top: 100%; /* At the bottom of the tooltip */
@@ -340,11 +341,11 @@ margin-bottom: 10px;
 
 /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
 opacity: 0;
-transition: opacity 0.75s ease-in-out;
--webkit-transition: opacity 0.75s ease-in-out; 
+transition: opacity 0.6s ease-in-out;
+-webkit-transition: opacity 0.6s ease-in-out; 
 }
 
-.skill-tooltip .skill-tooltiptext::after {
+.skill-tooltip .skill-tooltiptext:after {
 content: " ";
 position: absolute;
 top: 100%; /* At the bottom of the tooltip */
@@ -371,10 +372,10 @@ opacity: 95%;
 } 
 
 .icon-zoom {
-  -webkit-transition: transform 0.15s;
-     -moz-transition: transform 0.15s;
-       -o-transition: transform 0.15s;
-          transition: transform 0.15s;
+  -webkit-transition: transform 0.1s;
+     -moz-transition: transform 0.1s;
+       -o-transition: transform 0.1s;
+          transition: transform 0.1s;
 }
 
 
@@ -511,9 +512,9 @@ background-color: transparent;
 .accordion li:nth-child(2) { background: #121212;}
 .accordion li:nth-child(3) { background: #121212;} */
 
-.accordion li:nth-child(1) { background: #2fb91a; opacity: 80%;}
-.accordion li:nth-child(2) { background: #68d204; opacity: 80%;}
-.accordion li:nth-child(3) { background: #95DF4F; opacity: 80%;}
+.accordion li:nth-child(1) { background: #2fb91a;}
+.accordion li:nth-child(2) { background: #68d204;}
+.accordion li:nth-child(3) { background: #95DF4F;}
 
 .accordion ul:hover li { width: 8%; }
 
