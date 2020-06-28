@@ -1,8 +1,9 @@
 * {
 /* background-color: #1c1c1c; */
-/* background-color: #e9e8e8; */
+/* background-color: #e8e8e8; */
 /* color: #e9dfdf; */
 color: #c4c4c4;
+/* color: #whitesmoke; */
 
 box-sizing: border-box;
 /* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
@@ -89,11 +90,11 @@ margin-top: 2.5rem;
 }
 
 #bio-details {
-margin-top: 1rem;
+margin-top: 1.5rem;
 }
 
 #hello {
-font-size: 4.75em; 
+font-size: 4.95em; 
 font-weight: 300;
 font-style: italic;
 color:#c4c4c4;
@@ -173,6 +174,7 @@ min-width: 480px;
 .contact-tooltip {
 position: relative;
 display: inline-block;
+/* border: 1px solid #fff; */
 }
 
 .contact-tooltip .contact-tooltiptext {
@@ -196,6 +198,7 @@ margin-bottom: 10px;
 /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
 opacity: 0;
 transition: opacity 1s;
+border: 1px solid rgb(175, 175, 175);
 }
 
 .contact-tooltip .contact-tooltiptext::after {
@@ -216,14 +219,16 @@ visibility: visible;
 opacity: 90%;
 }
 
+
 #made-with {
 position: relative;
 font-size: 0.65em;
 letter-spacing: 0.05rem;
 margin: 0 auto;
-padding: 13rem 0rem 0rem 0rem;
-bottom: 2rem;
+padding-top: 18rem;
+bottom: 3rem;
 min-width: 480px;
+max-height: 100vh;
 text-align: center;
 color: #525252;
 /* border: 1px solid #fff; */
@@ -238,9 +243,14 @@ color: #757575;
 /* RESUME PAGE */
 .grid-wrapper {
 display: grid;
-grid-template-columns: auto auto auto;
+/* grid-template-columns: 20% auto 20%; */
+grid-template-columns: 0.5fr auto 0.5fr;
 margin: 2.5rem 0;
 /* border: 1px solid #fff; */
+}
+
+.grid-item {
+/* border: 1px solid #fff;	 */
 }
 
 .view-resume {
@@ -248,6 +258,7 @@ font-size: 1.5em;
 font-weight: 500;
 letter-spacing: 0.05rem;
 text-align: center;
+margin: 1rem 0;
 /* border: 1px solid #fff; */
 }
 
@@ -262,7 +273,7 @@ font-size: 1.4em;
 letter-spacing: 0.25rem;
 color:#25b30f;
 opacity: 90%;
-margin: 4rem 1rem 2rem 1rem;
+margin: 3.5rem 0.75rem 0rem 0.75rem;
 border-bottom: 1.25px solid #bde474;
 }
 
@@ -275,17 +286,19 @@ margin: 2rem 0rem 0.5rem 3rem;
 }
 
 .icon-row {
-margin: 1.5rem 0rem 3rem 2rem;
+padding: 1rem 1.75rem 0.5rem 1.75rem;
+max-width: 100%;
 }
 
 .icon-row .design-skills img {
 width: 50px; 
-margin: 0 1.8rem; 
+margin: 0rem 1.75rem; 
+vertical-align: bottom;
 background-color: #c4c4c4;
 }
 
 .skill-icons {
-padding: 0 2rem;
+padding: 0 1.75rem;
 display: inline;
 /* max-width: 480px; */
 font-size: 2.7em;
@@ -366,7 +379,8 @@ position: sticky;
 /* height: 350px; */
 /* overflow: hidden; */
 /* margin: 50px auto; */
-background-color: #e9e8e8;
+/* background-color: #e8e8e8; */
+background-color: whitesmoke;
 /* border: 1px solid red; */
 }
 
@@ -377,7 +391,7 @@ display: table;
 table-layout: fixed;
 /* margin-top: 5rem; */
 padding: 0;
-/* background-color: #e9e8e8; */
+/* background-color: #e8e8e8; */
 /* background-color: transparent; */
 }
 
@@ -396,7 +410,7 @@ background-repeat: no-repeat;
 background-position: center center;
 transition: all 500ms ease;
 margin: 1rem 0;
-/* background-color: #e9e8e8; */
+/* background-color: #e8e8e8; */
 /* background-color: transparent; */
 
 /* project slide drop shadow */
@@ -419,7 +433,7 @@ overflow: hidden;
 position: sticky;
 width: 100%;
 /* background-color: transparent; */
-/* background-color: #e9e8e8; slide color */
+/* background-color: #e8e8e8; slide color */
 }
 
 /* single project slide content */
@@ -435,11 +449,11 @@ padding: 15px 20px;
 box-sizing: border-box;
 /* color: #fff; */
 /* color: #c4c4c4; */
-/* color: #c4c4c4; */
 color: #e2e2e2;
+/* color: whitesmoke; */
 transition: all 200ms ease;
 /* background-color: transparent; */
-/* background-color: #e9e8e8; */
+/* background-color: #e8e8e8; */
 }
 
 .accordion ul li div div * {
@@ -458,7 +472,7 @@ overflow-wrap: break-word;
 transform: translateX(-20px);
 -webkit-transition: all 400ms ease;
 transition: all 400ms ease;
-/* background-color: #e9e8e8; */
+/* background-color: #e8e8e8; */
 /* background-color: transparent; */
 }
 
@@ -499,7 +513,8 @@ opacity: 1;
 -webkit-transform: translateX(0);
 transform: translateX(0);
 /* background-color: transparent; */
-background-color: #e2e2e2;
+background-color: #dadada; /* project slide bkgd color */
+/* background-color: whitesmoke; */
 /* padding-left: 3.5rem; */
 /* overflow-wrap: break-word; */
 }
@@ -553,17 +568,8 @@ text-align: center;
 /* border: 1px solid red; */
 }
 
-.project-stack{
-font-size: 1.2em;
-font-weight: 400; 
-letter-spacing: 0.09rem;
-text-align: left;
-color:#25b30f;
-/* border: 1px solid red; */
-}
-
 .accordion .project-content a {
-border: 1px solid #cacaca;
+border: 1px solid #bebebe;
 border-radius: 2.5px;
 box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 transition: all 0.35s ease 0s;
@@ -580,8 +586,12 @@ padding: 0.5rem 0.75rem;
 margin: 0 1rem;
 }
 
+.accordion .project-content a:hover {
+color: #25b30f;
+}
+
 .project-info-container {
-/* background-color: #e9e8e8; */
+/* background-color: #e8e8e8; */
 /* background-color: transparent; */
 /* text-align: right; */
 color: #4e4e4e;
@@ -594,6 +604,15 @@ width: 95%;
 margin: 0;
 float: left;
 /* position: relative; */
+/* border: 1px solid red; */
+}
+
+.project-stack{
+font-size: 1.1em;
+font-weight: 400; 
+letter-spacing: 0.09rem;
+text-align: left;
+color:#25b30f;
 /* border: 1px solid red; */
 }
 
@@ -755,6 +774,12 @@ line-height: 2.75rem;
 /* ----------- iPad viewport  ----------- */
 @media only screen and (max-width: 1024px) {
 	body { margin: 0; }
+	.grid-wrapper {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		/* margin: 2.5rem 0; */
+		/* border: 1px solid #fff; */
+		}
 
 .skill-icons {
 	display: inline-block;
@@ -773,8 +798,81 @@ line-height: 2.75rem;
 
 }
 
+
+/* ----------- iPad viewport  ----------- */
+@media only screen and (max-width: 768px) {
+	body { margin: 0; }
+	.grid-wrapper {
+		display: grid;
+		grid-template-columns: 5% auto 5%;
+		/* margin: 2.5rem 0; */
+		/* border: 1px solid #fff; */
+		}
+		.skill-icons {
+			display: inline-block;
+			margin: 20px auto;
+			}
+
+.design-skills {
+	display: inline-block;
+	margin: 20px auto;
+	}
+
+.project-links {
+	display: inline-block;
+	margin: 20px auto;
+	}
+
+
+.view-resume {
+	margin-top: 2rem;
+	}
+
+}
+
 /* ----------- iPad Pro viewport 1366h x 1024w ----------- */
 @media only screen and (max-width: 1024px) {
 	body { margin: 0; }
+	
+	.grid-wrapper {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		/* margin: 2.5rem 0; */
+		/* border: 1px solid #fff; */
+		}
+
+	.icon-row {
+		max-width: 100%;
+		margin:0;
+		}
+
+		.icon-row .design-skills img {
+			width: 50px; 
+			/* margin: 0rem 1.75rem;  */
+			vertical-align: bottom;
+			background-color: #c4c4c4;
+			}
+			
+			.skill-icons {
+				display: inline-block;
+				margin: 20px auto;
+				}
+
+}
+
+/* ----------- 1440w ----------- */
+@media only screen and (max-width: 1400px) {
+	body { margin: 0; }
+	.grid-wrapper {
+		display: grid;
+		grid-template-columns: 5% auto 5%;
+		/* margin: 2.5rem 0; */
+		/* border: 1px solid #fff; */
+		}
+
+		.skill-icons {
+			display: inline-block;
+			margin: 20px auto;
+			}
 
 }
