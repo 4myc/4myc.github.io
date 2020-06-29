@@ -282,6 +282,10 @@ border-bottom: 1.2px solid #bde474;
 /* border-bottom: 1.2px solid #78C257; */
 }
 
+#resume-link:hover {
+color:#2ca719;
+}
+
 .section-header {
 font-size: 1.4em;
 letter-spacing: 0.15rem;
@@ -688,6 +692,7 @@ vertical-align: middle;
 /* https://designmodo.com/responsive-test/ */
 /* https://www.w3schools.com/browsers/browsers_display.asp */
 /* https://www.w3schools.com/browsers/browsers_mobile.asp */
+/* https://screensizemap.com/ */
 /* https://viewportsizer.com/devices/ */
 /* http://screensiz.es/ */
 /* https://www.mydevice.io/ */
@@ -704,15 +709,27 @@ vertical-align: middle;
 /* (414w x 736h) iPhone 6+, 7+ and 8+ */
 /* (414w x 896h) iPhone 11 */
 /* (736h x 414w) iPhone 6+, 7+ and 8+ Landscape */
-/* (812w x 375h) iPhone X Landscape */
 /* (768w x 1024h) iPad Mini 2019 7.9-inch*/
+/* (812w x 375h) iPhone X Landscape */
 /* (1024w x 1366h) iPad 12.9-inch */
 /* (1280w x 1024h) Windows Desktop 15.4" */
 /* (1440w x 900h) MacBook Air, 13" */
-/* (1680w x 916h) MacBook Pro, 13" */
 /* (1680w x 916h) MacBook Pro, 15" */
 /* (1920w x 1080h) Desktop */
 /*  */
+
+/* BREAKPOINTS */
+/* 320px MAJOR - MOBILE: iPhone, Android, Blacberry */
+/* 360px minor */
+/* 480px minor */
+/* 600px minor - some tablets */
+/* 640px minor */
+/* 720px MAJOR */
+/* 768px minor - iPad, Android tablets */
+/* 800px minor */
+/* 1024px MAJOR - DESKTOPS, tablets, NetBooks */
+/* 1280px minor */
+/* 1366px minor - LAPTOPS */
 
 /* only screen: The only keyword is used to prevent older browsers that do not support media queries with media features from applying the specified styles. 
 Example: block older browsers from seeing an iPhone or Android phone style sheet. */
