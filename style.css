@@ -56,8 +56,8 @@ letter-spacing: 0.2rem;
 .navbar a:hover {
 /* border-bottom: 4px solid #bde474; */
 border-bottom: 2.5px solid #78C257;
-/* color: #2ca719; */
-color: #107C10;
+color: #2ca719;
+/* color: #107C10; */
 /* opacity: 90%; */
 }
 
@@ -66,8 +66,8 @@ color: #107C10;
 /* border-bottom: 4px solid #bde474; */
 /* border-bottom: 2.5px solid #95DF4F; */
 border-bottom: 2.5px solid #78C257;
-/* color: #2ca719; */
-color:#107C10;
+color: #2ca719;
+/* color:#107C10; */
 /* opacity: 90%; */
 }
 
@@ -125,7 +125,7 @@ padding: 1rem 0;
           transition: transform 0.1s;
 }
 
-.front-dev {
+.name-dev {
 font-size: 1.9em; 
 font-weight: 500;
 letter-spacing: 0.15rem;
