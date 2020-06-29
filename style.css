@@ -253,9 +253,9 @@ color: #555;
 /* ----------- RESUME PAGE ----------- */
 .grid-wrapper {
 display: grid;
-grid-template-columns: 20% auto 20%;
+/* grid-template-columns: 20% auto 20%; */
 /* grid-template-columns: 10% auto 10%; */
-/* grid-template-columns: 0.5fr auto 0.5fr; */
+grid-template-columns: 0.5fr auto 0.5fr;
 margin: 2.5rem 0;
 /* border: 1px solid #fff; */
 }
@@ -305,27 +305,18 @@ font-weight: 300;
 /* color:#95DF4F; */
 color:#78C257;
 opacity: 80%;
-margin: 2rem 0rem 0.25rem 2.5rem;
+margin: 2rem 0rem 0.25rem 4rem;
 }
 
 .icon-row {
-padding: 1rem 0rem 0.5rem 1rem;
+padding: 1rem 2rem 0.5rem 2rem;
 /* margin: 0 auto; */
 max-width: 100%;
 /* border: 1px solid #fff; */
 }
 
-.icon-row .design-skills img {
-width: 46px; 
-margin: 0rem 1.75rem; 
-vertical-align: bottom;
-background-color: #c4c4c4;
-}
-
 .skill-icons {
-padding: 0 1.5rem;
-display: inline-block;
-/* max-width: 480px; */
+padding: 0 1.75rem;
 font-size: 2.7em;
 color: #c4c4c4;
 opacity: 90%;
@@ -334,9 +325,10 @@ opacity: 90%;
 
 .material-icon {
 width: 55px; 
-margin: 0 2rem; 
+margin: 0 1.5rem; 
 vertical-align: bottom; 
 opacity: 75%;
+/* border: 1px solid #fff; */
 }
 
 .semantic-icon {
@@ -345,7 +337,16 @@ margin: 0 2rem;
 vertical-align: bottom; 
 padding-bottom: 2px; 
 opacity: 92%;
+/* border: 1px solid #fff; */
 }
+
+.icon-row .design-icons img {
+width: 46px; 
+margin: 0rem 1.75rem; 
+vertical-align: bottom;
+background-color: #c4c4c4;
+}
+
 
 /* SKILL HOVER TOOLTIP */
 .skill-tooltip {
@@ -719,7 +720,7 @@ vertical-align: middle;
 /*  */
 
 /* BREAKPOINTS */
-/* 320px MAJOR - MOBILE: iPhone, Android, Blacberry */
+/* 320px MAJOR - MOBILE: iPhone, Android, Blackberry */
 /* 360px minor */
 /* 480px minor */
 /* 600px minor - some tablets */
