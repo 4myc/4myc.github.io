@@ -109,13 +109,13 @@ padding: 1rem 0;
   -webkit-transform: scale(1.2);
      -moz-transform: scale(1.2);
       -ms-transform: scale(1.2);
-		  transform: scale(1.2);
-		  /* text-shadow: 0 0 15px #c2ec74; */
-		  /* color: #c2ec74; */
-		  /* color:#b7eb56; */
-		  color:#d1fd80;
-		  /* color:#c8fc69; */
-		  opacity: 65%;
+          transform: scale(1.2);
+          /* text-shadow: 0 0 15px #c2ec74; */
+          /* color: #c2ec74; */
+          /* color:#b7eb56; */
+          color:#d1fd80;
+          /* color:#c8fc69; */
+          opacity: 65%;
 } 
 
 #hello {
@@ -305,7 +305,7 @@ font-weight: 300;
 /* color:#95DF4F; */
 color:#78C257;
 opacity: 80%;
-margin: 2rem 0rem 0.25rem 4rem;
+margin: 2rem 0rem 0.25rem 3.7rem;
 }
 
 .icon-row {
@@ -395,10 +395,10 @@ opacity: 95%;
 
 .icon-zoom:hover,
 .icon-zoom:focus {
-  -webkit-transform: scale(1.25);
-     -moz-transform: scale(1.25);
-      -ms-transform: scale(1.25);
-		  transform: scale(1.25);
+  -webkit-transform: scale(1.35);
+     -moz-transform: scale(1.35);
+      -ms-transform: scale(1.35);
+		      transform: scale(1.35);
 } 
 
 .icon-zoom {
@@ -611,6 +611,7 @@ font-size: 1.1em;
 font-weight: 400;
 letter-spacing: 0.1rem;
 line-height: 2rem;
+/* margin: 0 auto; */
 text-align: center;
 /* border: 1px solid red; */
 }
