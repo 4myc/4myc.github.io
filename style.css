@@ -2,7 +2,6 @@
 /* background-color: #121212; */
 /* background-color: #e8e8e8; */
 /* color: #e9dfdf; */
-color: #c4c4c4;
 box-sizing: border-box;
 /* box-sizing: includes the padding and border in an element's total width and height. */
 }
@@ -17,6 +16,7 @@ box-sizing: border-box;
 /* Size everything else in rem. */
 html, body {
 background-color: #121212;
+color: #c4c4c4;
 height: 100%;
 max-width: 100%;
 margin: 0;
@@ -161,6 +161,17 @@ color:#94e66f;
 opacity: 80%;
 }
 
+.temp-contact {
+/* max-width: 100%; */
+color: #b1b1b1;
+font-size: 1.1em;
+letter-spacing: 0.1em;
+line-height: 1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 /* contact container */
 #contact {
 display: flex;
@@ -177,6 +188,7 @@ opacity: 87%;
 font-size: 2.5rem;
 margin: 0 1.5rem;
 min-width: 480px;
+color: #c4c4c4;
 /* border: 1px solid #fff; */
 }
 
@@ -395,10 +407,10 @@ opacity: 95%;
 
 .icon-zoom:hover,
 .icon-zoom:focus {
-  -webkit-transform: scale(1.35);
-     -moz-transform: scale(1.35);
-      -ms-transform: scale(1.35);
-		      transform: scale(1.35);
+  -webkit-transform: scale(1.25);
+     -moz-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+		      transform: scale(1.25);
 } 
 
 .icon-zoom {
@@ -453,7 +465,7 @@ position: relative;
 height: 100vh;
 background-repeat: no-repeat;
 background-position: center center;
-transition: all 500ms ease;
+transition: all 450ms ease;
 margin: 1rem 0;
 /* background-color: #e8e8e8; */
 /* background-color: transparent; */
