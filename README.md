@@ -1,7 +1,7 @@
 # PERSONAL PORTFOLIO WEBSITE  
 www.amychen.dev  
 
-Fully responsive multipage personal portfolio website built from scratch with HTML5 and CSS3.
+Fully responsive multipage static portfolio website built from scratch with HTML5 and CSS3.
 
 # Technologies   
 <a href="https://pages.github.com/">GitHub Pages</a>  
