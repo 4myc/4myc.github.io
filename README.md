@@ -3,7 +3,7 @@ www.amychen.dev
 
 Fully responsive multipage static portfolio website built from scratch with HTML5 and CSS3.
 
-# Technologies   
+## Technologies   
 <a href="https://pages.github.com/">GitHub Pages</a>  
 <a href="https://fonts.google.com">Google Fonts</a>  
 <a href="https://www.fontawesome.com">Font Awesome</a>  
