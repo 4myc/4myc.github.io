@@ -934,6 +934,7 @@ html, body { margin: 0; }
 .grid-wrapper {
 display: grid;
 grid-template-columns: 5% auto 5%;
+padding-bottom: 5rem;
 /* margin: 2.5rem 0; */
 /* border: 1px solid #fff; */
 }
