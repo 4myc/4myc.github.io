@@ -565,9 +565,13 @@ background-color: transparent;
 .accordion li:nth-child(2) { background: #121212;}
 .accordion li:nth-child(3) { background: #121212;} */
 
+/* NOTE: rgba ONLY affects opacity of background color, not content. last number 0.9 = 90% opacity */
+/* .accordion li:nth-child(1) { background-color:rgba(47, 185, 26, 0.9)}
+.accordion li:nth-child(2) { background-color:rgba(104, 210, 4, 0.9)}
+.accordion li:nth-child(3) { background-color:rgba(149, 223, 79, 0.9)} */
 .accordion li:nth-child(1) { background: #2fb91a;}
 .accordion li:nth-child(2) { background: #68d204;}
-.accordion li:nth-child(3) { background: #95DF4F;}
+/* .accordion li:nth-child(3) { background: #95DF4F;} */
 /* .accordion li:nth-child(4) { background: #68d204;} */
 /* .accordion li:nth-child(#) { background: #78C257;}*/
 
@@ -790,9 +794,7 @@ font-size: 0.2em;
 html, body { margin: 0; }
 
 .navbar {
-/* border: 1px solid red; */
 display: inline-block;
-margin: 0 3rem;
 padding-top: 4rem;
 }
 
@@ -821,19 +823,14 @@ margin: 0 auto;
 
 html, body { margin: 0; }
 
+.bio-container {
+margin: 0 auto;
+max-width: 100vw;
+}
+
 .skill-icons {
 display: inline-block;
 margin: 20px auto;
-}
-
-.project-name {
-font-size: 0.7em;
-/* width: 100%; */
-} 
-
-.project-desc {
-max-width: 100%;
-line-height: 2.75rem;
 }
 
 /* accordion slider */
