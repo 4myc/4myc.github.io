@@ -85,7 +85,7 @@ bottom: 2rem;
 #bio {
 font-size: 1.25em;
 font-weight: 300;
-line-height: 6rem;
+line-height: 5.5rem;
 letter-spacing: 0.15rem;
 margin-top: 2.5rem;
 /* border: 1px solid #fff; */
@@ -138,7 +138,7 @@ opacity: 87%;
 font-size: 1.1em; 
 /* font-weight: 500; */
 letter-spacing: 0.1rem;
-color:#107C10;
+color:#068d06;
 /* opacity: 90%; */
 }
 
@@ -236,7 +236,7 @@ position: relative;
 font-size: 0.65em;
 letter-spacing: 0.05rem;
 margin: 0 auto;
-padding-top: 14rem;
+padding-top: 16rem;
 bottom: 1rem;
 min-width: 480px;
 max-height: 100vh;
@@ -769,59 +769,17 @@ Example: block older browsers from seeing an iPhone or Android phone style sheet
 
 /* ----------- iPhone 4 and 4S (320w x 480h) ----------- */
 /* ----------- iPhone 5, 5S, 5C and 5SE (320w x 568h) ----------- */
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 375px) {
 
 html, body { margin: 0; }
 
 .navbar {
 /* border: 1px solid red; */
-display: inline-block;
-justify-content: flex-end;
-margin: 0;
-padding: 0;
+/* display: inline-block; */
+/* justify-content: flex-end; */
+/* margin: 0; */
+padding: 1rem 0;
 }
-
-.temp-contact {
-max-width: 100%;
-font-size: 0.2em;
-}
-
-}
-
-/* ----------- Samsung Galaxy S (360w x 640h) ----------- */
-@media only screen and (max-width: 360px) {
-
-html, body { margin: 0; }
-
-.navbar {
-display: inline-block;
-padding-top: 4rem;
-}
-
-.bio-container {
-margin: 0 auto;
-}
-
-
-}
-
-/* ----------- iPhone X (375w x 812h) ----------- */
-/* Portrait and Landscape */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
-
-}
-
-/* Portrait */
-@media only screen 
-  and (min-width: 375px) 
-  and (max-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-
-html, body { margin: 0; }
 
 .bio-container {
 margin: 0 auto;
@@ -855,7 +813,10 @@ margin: 20px auto;
 	}	
 
 .project-name {
-font-size: 0.4em;
+width: 100%;
+font-size: 1.25em;
+margin: 0;
+padding: 2rem 0;
 } 
 
 .project-desc {
@@ -876,6 +837,31 @@ display: inline-block;
 
 }
 
+/* ----------- Samsung Galaxy S (360w x 640h) ----------- */
+@media only screen and (max-width: 360px) {
+
+html, body { margin: 0; }
+
+}
+
+/* ----------- iPhone X (375w x 812h) ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-width: 375px) 
+  and (max-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
 /* ----------- iPhone 6+, 7+ and 8+ (414w x 736h) ----------- */
 /* Portrait and Landscape */
 @media only screen 
@@ -892,17 +878,14 @@ display: inline-block;
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
 
-.navbar a {
+.navbar {
 font-size: 1em;
+padding: 1rem 2rem;
 }
 
 .bio-container {
 margin: 0 auto;
 }
-
-.project-name {
-font-size: 0.5em;
-} 	
 
 }
 
@@ -1019,9 +1002,9 @@ display: inline-block;
 margin: 20px auto;
 }
 
-.view-resume {
+/* .view-resume {
 padding-top: 6rem;
-}
+} */
 
 }
 
