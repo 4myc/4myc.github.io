@@ -191,11 +191,12 @@ display: inline-block;
 .contact-tooltip .contact-tooltiptext {
 /* border: 1px solid red; */
 visibility: hidden;
-width: 230px;
+width: 235px;
 background-color: #73c516;
 opacity: 90%;
 color: #121212;
 text-align: center;
+font-size: 0.88em;
 /* border-radius: 1px; */
 padding: 7px 0;
 position: absolute;
@@ -291,7 +292,7 @@ color:#2ca719;
 max-width: 80%;
 text-align: center;
 color: #b1b1b1;
-font-size: 1em;
+font-size: 0.9em;
 letter-spacing: 0.1em;
 line-height: 1.75rem;
 margin: 0 auto;
@@ -363,7 +364,7 @@ opacity: 92%;
 }
 
 .icon-row .adobe-icons img {
-width: 46px; 
+width: 44px; 
 margin: 0rem 1.85rem; 
 vertical-align: bottom;
 background-color: #c4c4c4;
@@ -890,7 +891,7 @@ margin: 20px auto;
 
 .temp-contact {
 max-width: 100%;
-font-size: 1em;
+font-size: 0.8em;
 }
 
 }
