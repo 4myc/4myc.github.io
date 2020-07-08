@@ -971,7 +971,7 @@ margin-top: 2.5rem;
 .grid-wrapper {
 display: grid;
 grid-template-columns: auto auto auto;
-/* margin: 2.5rem 0; */
+margin: 2.5rem 0;
 /* border: 1px solid #fff; */
 }
 
