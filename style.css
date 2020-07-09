@@ -714,6 +714,11 @@ font-weight: 300;
 vertical-align: middle;
 }
 
+.project-contributions {
+color:#2ca719; 
+padding-left: 1rem;
+}
+
 
 /* ----------- RESPONSIVE MEDIA QUERIES ----------- */
 /* https://www.browserstack.com/responsive-design */

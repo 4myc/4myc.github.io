@@ -1,10 +1,10 @@
 # PERSONAL PORTFOLIO WEBSITE  
 www.amychen.dev  
 
-Fully responsive multipage static portfolio website built from scratch with HTML5 and CSS3.
+Fully responsive multipage static website built from scratch with HTML5 and CSS3.
 
-## Technologies   
-<a href="https://pages.github.com/">GitHub Pages</a>  
-<a href="https://fonts.google.com">Google Fonts</a>  
-<a href="https://www.fontawesome.com">Font Awesome</a>  
-<a href="https://konpa.github.io/devicon/">Devicon</a> 
+## Technologies  
+[Netlify]("https://www.netlify.com/")  
+[Google Fonts]("https://fonts.google.com")  
+[Font Awesome]("https://www.fontawesome.com")  
+[Devicon]("https://konpa.github.io/devicon/")  
