@@ -158,6 +158,7 @@ letter-spacing: 0.1rem;
 /* color:#81e013; */
 /* color:#b8ee53; */
 color:#94e66f;
+/* color: #CDDC39; */
 opacity: 80%;
 }
 
@@ -447,7 +448,7 @@ position: sticky;
 /* margin: 50px auto; */
 /* background-color: #e8e8e8; */
 /* background-color: whitesmoke; */
-background-color: #e2e2e2;
+background-color: #e7e7e7;
 /* opacity: 90%; */
 /* border: 1px solid red; */
 }
@@ -716,7 +717,7 @@ vertical-align: middle;
 
 .project-contributions {
 color:#2ca719; 
-padding-left: 1rem;
+padding-left: 1.4rem;
 }
 
 
