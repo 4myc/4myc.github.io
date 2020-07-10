@@ -93,6 +93,7 @@ margin-top: 2.5rem;
 
 #bio-details {
 margin-top: 1.5rem;
+text-align: center;
 }
 
 #hello {
@@ -162,7 +163,6 @@ color:#94e66f;
 opacity: 80%;
 }
 
-/* contact container */
 #contact {
 display: flex;
 justify-content: center;
@@ -791,6 +791,7 @@ Example: block older browsers from seeing an iPhone or Android phone style sheet
 /* ----------- iPhone 4 and 4S (320w x 480h) ----------- */
 /* ----------- iPhone 5, 5S, 5C and 5SE (320w x 568h) ----------- */
 /* ----------- Samsung Galaxy S (360w x 640h) ----------- */
+/* ----------- iPhone 6, 7 and 8 (375w x 667h) ----------- */
 /* ----------- iPhone X (375w x 812h) ----------- */
 /* ----------- Google Pixel (411w x 732h) ----------- */
 /* ----------- iPhone 6+, 7+ and 8+ (414w x 736h) ----------- */
@@ -810,15 +811,6 @@ padding: 1rem 0;
 margin: 0 auto;
 max-width: 100vw;
 }
-
-/* .navbar {
-font-size: 1em;
-padding: 1rem 2rem;
-} */
-/* 
-.bio-container {
-margin: 0 auto;
-} */
 
 .skill-icons {
 display: inline-block;
@@ -871,21 +863,22 @@ display: inline-block;
 
 }
 
-
-
-
-
-
 /* ----------- iPhone 6+, 7+ and 8+ Landscape (736w x 414h) ----------- */
-
-
-/* ----------- iPhone X Landscape (812w x 375h) ----------- */
 
 
 /* ----------- iPad, 10" Portrait (768w x 1024h) ----------- */
 @media only screen and (max-width: 768px) {
 
 html, body { margin: 0; }
+
+#bio-details {
+font-size: 0.62em;
+text-align: center;
+}
+
+.name-dev {
+font-size: 2.1em;
+}
 
 .grid-wrapper {
 display: grid;
@@ -915,6 +908,9 @@ font-size: 0.8em;
 }
 
 }
+
+/* ----------- iPhone X Landscape (812w x 375h) ----------- */
+
 
 /* ----------- iPad, 10" Landscape (1024w x 768h) ----------- */
 /* ----------- iPad Pro, 10" Portrait (1024w x 1366h) ----------- */
@@ -974,10 +970,6 @@ margin: 20px auto;
 display: inline-block;
 margin: 20px auto;
 }
-
-/* .view-resume {
-padding-top: 6rem;
-} */
 
 }
 
