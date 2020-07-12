@@ -321,6 +321,7 @@ opacity: 92%;
 
 .adobe-icons {
 padding: 0 0.2rem;
+/* vertical-align: bottom;  */
 /* border: 1px solid #fff; */
 }
 
@@ -752,17 +753,16 @@ display: inline-block;
 
 
 /* ----------- iPad, 10" Portrait (768w x 1024h) ----------- */
-@media only screen and (max-width: 768px) and (min-width: 769px) {
+@media only screen and (max-width: 768px) {
 
 html, body { margin: 0; }
 
-#bio-details {
-font-size: 0.62em;
-text-align: center;
-}
+/* .bio-container {
+font-size: 0.3em;
+} */
 
 .name-dev {
-font-size: 2.1em;
+font-size: 1.5em;
 }
 
 .grid-wrapper {
@@ -799,7 +799,7 @@ font-size: 0.8em;
 
 /* ----------- iPad, 10" Landscape (1024w x 768h) ----------- */
 /* ----------- iPad Pro, 10" Portrait (1024w x 1366h) ----------- */
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) {
 
 html, body { margin: 0; }
 
@@ -811,15 +811,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 bottom: 2rem;
-}
-
-#bio {
-font-size: 1em;
-font-weight: 300;
-line-height: 6rem;
-letter-spacing: 0.15rem;
-margin-top: 2.5rem;
-/* border: 1px solid #fff; */
 }
 
 .grid-wrapper {
