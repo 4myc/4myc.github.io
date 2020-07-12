@@ -680,7 +680,7 @@ Example: block older browsers from seeing an iPhone or Android phone style sheet
 /* ----------- iPhone X (375w x 812h) ----------- */
 /* ----------- Google Pixel (411w x 732h) ----------- */
 /* ----------- iPhone 6+, 7+ and 8+ (414w x 736h) ----------- */
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) and (min-width: 767px) {
 
 html, body { margin: 0; }
 
@@ -752,7 +752,7 @@ display: inline-block;
 
 
 /* ----------- iPad, 10" Portrait (768w x 1024h) ----------- */
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
 
 html, body { margin: 0; }
 
@@ -799,7 +799,7 @@ font-size: 0.8em;
 
 /* ----------- iPad, 10" Landscape (1024w x 768h) ----------- */
 /* ----------- iPad Pro, 10" Portrait (1024w x 1366h) ----------- */
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1024px) {
 
 html, body { margin: 0; }
 
