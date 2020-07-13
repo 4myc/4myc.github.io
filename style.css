@@ -40,8 +40,9 @@ font-size: 100%;
 
 .stars {
   background: url(images/stars.png) repeat top center;
+  background-repeat: repeat-y repeat-x;
   z-index:0;
-  opacity: 50%;
+  opacity: 45%;
 }
 
 /* navbar container */
