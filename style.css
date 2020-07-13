@@ -33,11 +33,12 @@ font-size: 100%;
 
 .stars {
   z-index: 0; position: absolute;
-  background-image:  url(images/stars.png);
+  background-image: url(images/stars.png);
   background-repeat: repeat-x,repeat-x repeat-y;
-  transform:translate3D(0em, 0em, 0);
-  animation: stars 21s ease; 
-  transform-style: preserve-3d;
+  opacity: 90%;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
 }
 
 /* navbar container */
