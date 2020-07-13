@@ -40,7 +40,9 @@ font-size: 100%;
 
 .stars {
   background: url(images/stars.png) repeat top center;
-  background-repeat: repeat-y repeat-x;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
   z-index:0;
   opacity: 45%;
 }
@@ -322,7 +324,7 @@ opacity: 90%;
 }
 
 .material-icon {
-width: 55px; 
+width: 55px;
 margin: 0 1.75rem; 
 vertical-align: bottom; 
 opacity: 75%;
@@ -330,7 +332,6 @@ opacity: 75%;
 }
 
 .semantic-icon {
-width: 41px; 
 margin: 0 2rem; 
 vertical-align: bottom; 
 padding-bottom: 2px; 
@@ -396,7 +397,7 @@ position: relative;
 height: 100vh;
 background-repeat: no-repeat;
 background-position: center center;
-transition: all 250ms ease;
+transition: all 150ms ease;
 margin: 1rem 0;
 /* background-color: #e8e8e8; */
 /* background-color: transparent; */
@@ -439,7 +440,7 @@ box-sizing: border-box;
 /* color: #c4c4c4; */
 /* color: #e2e2e2; */
 /* color: whitesmoke; */
-transition: all 250ms ease;
+transition: all 150ms ease;
 /* background-color: transparent; */
 /* background-color: #e8e8e8; */
 }
@@ -458,8 +459,8 @@ overflow-y: auto;
 overflow-wrap: break-word;
 -webkit-transform: translateX(-20px);
 transform: translateX(-20px);
--webkit-transition: all 250ms ease;
-transition: all 250ms ease;
+-webkit-transition: all 150ms ease;
+transition: all 150ms ease;
 /* background-color: #e8e8e8; */
 /* background-color: transparent; */
 }
