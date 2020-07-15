@@ -30,7 +30,7 @@ font-size: 100%;
 #star-bkgd {
   z-index: 0; position: absolute;
   background-image: url(images/stars.png);
-  background-repeat: repeat-x,repeat-x repeat-y;
+  background-repeat: repeat repeat;
   opacity: 90%;
   width: 100vw;
   height: 100vh;
@@ -233,7 +233,7 @@ margin: 2.5rem 0;
 }
 
 .view-resume {
-font-size: 1.5em;
+font-size: 1.25em;
 font-weight: 400;
 letter-spacing: 0.05rem;
 text-align: center;
@@ -252,19 +252,6 @@ border-bottom: 1.2px solid #bde474;
 
 #resume-link:hover {
 color:#107C10;
-}
-
-.temp-contact {
-max-width: 80%;
-text-align: center;
-color: #b1b1b1;
-font-size: 0.9em;
-letter-spacing: 0.1em;
-line-height: 1.75rem;
-margin: 0 auto;
-/* display: flex;
-justify-content: center;
-align-items: center; */
 }
 
 .section-header {
