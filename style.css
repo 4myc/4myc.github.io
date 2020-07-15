@@ -28,13 +28,13 @@ font-size: 100%;
 }
 
 #star-bkgd {
-  z-index: 0; position: absolute;
-  background-image: url(images/stars.png);
-  background-repeat: repeat repeat;
-  opacity: 90%;
-  width: 100vw;
-  height: 100vh;
-  overflow-y: scroll;
+z-index: 0; position: absolute;
+background-image: url(images/stars.png);
+background-repeat: repeat repeat;
+opacity: 90%;
+width: 100vw;
+height: 100vh;
+overflow-y: scroll;
 }
 
 /* navbar container */
