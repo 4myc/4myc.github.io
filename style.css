@@ -20,7 +20,6 @@ box-sizing: border-box;
 
 html, body {
 background-color: #121212;
-color: #c4c4c4;
 height: 100%;
 max-width: 100%;
 font-family: 'Montserrat', sans-serif;
@@ -84,6 +83,7 @@ color: #2ca719;
 }
 
 #bio-container {
+color: #c4c4c4;
 margin: 0;
 padding: 0 6rem;
 max-width: 100vw;
@@ -234,7 +234,7 @@ margin: 2.5rem 0;
 }
 
 .view-resume {
-font-size: 1.25em;
+font-size: 1.15em;
 font-weight: 500;
 letter-spacing: 0.1rem;
 text-align: center;
@@ -246,15 +246,16 @@ padding: 1rem 0 1.5rem 0;
 #resume-link {
 text-decoration: none;
 color:#b4f865;
-opacity: 87%;
-padding: 0.75rem;
+opacity: 70%;
+padding: 0.5rem 1rem;
 border: 1px solid #b4f865;
 /* border-bottom: 1.2px solid #78C257; */
 }
 
 #resume-link:hover {
-background-color: #94e66f;
+background-color: #b4f865;
 color:#121212;
+opacity: 70%;
 }
 
 .section-header {
@@ -264,7 +265,7 @@ letter-spacing: 0.15rem;
 color:#107C10;
 /* opacity: 90%; */
 margin: 3rem 0.75rem 0rem 0.75rem;
-border-bottom: 1px solid #bde474;
+border-bottom: 1px solid #78C257;
 /* border-bottom: 1.25px solid #78C257; */
 /* border-bottom: 1.25px solid #89d821; */
 }
@@ -275,7 +276,7 @@ letter-spacing: 0.4rem;
 font-weight: 400;
 /* color:#95DF4F; */
 color:#4c9928;
-opacity: 80%;
+opacity: 87%;
 margin: 2rem 0rem 0rem 3.7rem;
 }
 
@@ -341,7 +342,7 @@ max-height: 100vh;
 /* margin: 0; */
 margin-top: 1rem;
 position: sticky;
-background-color: #ececec;
+/* background-color: #e6e6e6; */
 /* background-color: #e8e8e8; */
 /* background-color: whitesmoke; */
 /* opacity: 90%; */
@@ -478,12 +479,14 @@ background-color: transparent;
 
 .accordion ul:hover li:hover div { background: rgba(0, 0, 0, 0.4);}
 
+/* project slide bkgd color */
 .accordion ul:hover li:hover div * {
 opacity: 1;
 -webkit-transform: translateX(0);
 transform: translateX(0);
 /* background-color: transparent; */
-background-color: #e2e2e2; /* project slide bkgd color */
+background-color: #fafafa; 
+/* background-color: #e2e2e2;  */
 /* background-color: whitesmoke; */
 /* padding-left: 3.5rem; */
 /* overflow-wrap: break-word; */
@@ -508,19 +511,28 @@ height: 100vh;
 display: block;
 margin-left: auto;
 margin-right: auto;
-max-width: 95%;
+max-width: 82%;
 padding: 1rem 1rem;
-/* margin: 2rem auto; */
-border: 1px solid #b4b4b4;
-box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+border: 1px solid #cacaca;
+box-shadow:  
+/* -16px 16px 32px 0 rgba(240,240,240,1),
+16px -16px 32px rgba(255,255,255,1); */
+-3px 3px 9px rgba(185, 185, 185, 0.6),
+3px -3px 9px rgba(235, 235, 235, 0.5); */
+/* box-shadow:
+-3px 3px 8px 0 rgba(0, 0, 0, 0.3),
+4px -4px 10px rgba(255, 255, 255, 0.25); */
+/* box-shadow: 
+0 10px 15px -3px rgba(0, 0, 0, 0.1), 
+0 4px 6px -2px rgba(0, 0, 0, 0.05); */
 /* box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1); */
 /* border: 3px solid red; */
 }
 
 .project-name {
 text-align: center;
-color: #5a5a5a;
-font-size: 2.25em;
+color: #686868;
+font-size: 2.05em;
 font-weight: 400;
 letter-spacing: 0.5rem;
 padding: 2rem 0 3rem 0;
@@ -532,7 +544,7 @@ text-transform: uppercase;
 } 
 
 .project-desc {
-color: #5e5e5e;
+color: #707070;
 font-size: 1.15em;
 font-weight: 400;
 letter-spacing: 0.1rem;
@@ -543,26 +555,33 @@ text-align: center;
 
 /* project-link buttons */
 .accordion .project-content a {
-border: 1px solid #bebebe;
-/* border-radius: 2.5px; */
+/* border: 1px solid #bebebe; */
 /* box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1); */
-box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+/* box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.06); */
+box-shadow:
+-2px 2px 6px rgba(163, 177, 198, 0.6),
+2px -2px 6px rgba(255, 255, 255, 0.5);
+/* box-shadow: 
+9px 9px 16px rgb(163, 177, 198, 0.6), 
+-9px -9px 16px  rgba(255, 255, 255, 0.5); */
+/* -1px 1px 4px rgba(0, 0, 0, 0.3),
+4px -4px 10px rgba(255, 255, 255, 0.25); */
 transition: all 0.3s ease 0s;
 cursor: pointer;
 outline: none;
 text-transform: uppercase;
 text-decoration: none;
-color: #5d5d5d;
-font-size: 1.1rem;
+color: #808080;
+font-size: 1.15rem;
 font-weight: 500;
-letter-spacing: 0.06rem;
+letter-spacing: 0.05rem;
 line-height: 1.75rem;
-padding: 0.6rem 0.8rem;
+padding: 0.6rem 1.2rem;
 margin: 0 1rem;
 }
 
 .accordion .project-content a:hover {
-color: #2ca719;
+color: #5f5f5f;
 opacity: 87%;
 }
 
@@ -577,10 +596,10 @@ color:#2ca719;
 } 
 
 .project-stack-header {
-font-size: 1em;
-font-weight: 400; 
+font-size: 0.98em;
+font-weight: 500; 
 letter-spacing: 0.09rem;
-color: #747474;
+color: #8b8b8b;
 /* color:#78C257; */
 /* opacity: 87%; */
 /* border: 1px solid red; */
@@ -592,7 +611,7 @@ color: #747474;
 /* text-align: right; */
 /* color: #4e4e4e; */
 color: #797979;
-font-size: 1.1em;
+font-size: 1.05em;
 font-weight: 300;
 letter-spacing: 0.1rem;
 line-height: 2.4rem;
@@ -612,6 +631,7 @@ vertical-align: middle;
 }
 
 .project-contributions {
+font-weight: 500;
 color:#2ca719; 
 padding-left: 1.4rem;
 }
