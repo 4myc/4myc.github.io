@@ -758,11 +758,21 @@ margin: 0 auto;
 display: inline-block;
 }
 
+
 .project-info-container {
 width: 100%;
 padding: 1rem 0;
 }
 
+}
+
+@media only screen and (max-width: 620px) {
+.project-links {
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ Landscape (736w x 414h) ----------- */
