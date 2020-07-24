@@ -3,10 +3,6 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 /* box-sizing: includes the padding and border in an element's total width and height. */
-
-/* background-color: #121212; */
-/* background-color: #e8e8e8; */
-/* color: #e9dfdf; */
 }
 
 /* rem is a unit of typography equal to the root font-size. This means 1rem is always equal to the font-size defined in <html> */
@@ -43,13 +39,10 @@ position: relative;
 display: block;
 padding: 2rem 15rem 0rem 0rem; 
 overflow: hidden;
-/* border: 1px solid red; */
 }
 
 /* links inside the navbar */
 .navbar a {
-/* position: absolute; */
-/* position: sticky; */
 float: right;
 display: block;
 color: #c4c4c4;
@@ -60,26 +53,18 @@ text-align: center;
 text-decoration: none;
 font-size: 0.75em;
 letter-spacing: 0.2rem;
-/* border: 1px solid red; */
 }
 
 /* links on hover */
 .navbar a:hover {
-/* border-bottom: 4px solid #bde474; */
 border-bottom: 2.5px solid #78C257;
 color: #2ca719;
-/* color: #107C10; */
-/* opacity: 90%; */
 }
 
 /* current page styling */
 .navbar a.active {
-/* border-bottom: 4px solid #bde474; */
-/* border-bottom: 2.5px solid #95DF4F; */
 border-bottom: 2.5px solid #78C257;
 color: #2ca719;
-/* color:#107C10; */
-/* opacity: 90%; */
 }
 
 #bio-container {
@@ -91,7 +76,6 @@ display: flex;
 justify-content: center;
 align-items: center;
 bottom: 2rem;
-/* border: 1px solid #fff; */
 }
 
 #bio {
@@ -100,7 +84,6 @@ font-weight: 400;
 line-height: 5.5rem;
 letter-spacing: 0.15rem;
 margin-top: 2.5rem;
-/* border: 1px solid #fff; */
 }
 
 #bio-details {
@@ -124,10 +107,7 @@ padding: 1rem 0;
       -ms-transform: scale(1.2);
           transform: scale(1.2);
           /* text-shadow: 0 0 15px #c2ec74; */
-          /* color: #c2ec74; */
-          /* color:#b7eb56; */
           color:#d1fd80;
-          /* color:#c8fc69; */
           opacity: 65%;
 } 
 
@@ -143,21 +123,17 @@ font-size: 1.93em;
 font-weight: 500;
 letter-spacing: 0.15rem;
 color:#6acc0f;
-/* color:#78C257; */
 opacity: 87%;
 }
 
 #full-stack {
 font-size: 1.1em; 
-/* font-weight: 500; */
 letter-spacing: 0.1rem;
 color:#068d06;
-/* opacity: 90%; */
 }
 
 #ui-ux {
 font-size: 1em; 
-/* font-weight: 500; */
 letter-spacing: 0.1rem;
 color:#25D366;
 opacity: 80%;
@@ -165,14 +141,13 @@ opacity: 80%;
 
 #design {
 font-size: 1em; 
-/* font-weight: 500; */
 letter-spacing: 0.1rem;
+color:#94e66f;
+opacity: 80%;
 /* color:#bde474; */
 /* color:#81e013; */
 /* color:#b8ee53; */
-color:#94e66f;
 /* color: #CDDC39; */
-opacity: 80%;
 }
 
 #contact {
@@ -182,7 +157,6 @@ align-items: center;
 margin: 3rem 0rem 0rem 0rem;
 min-width: 480px;
 opacity: 87%;
-/* border: 1px solid #fff; */
 }
 
 /* contact icons */
@@ -190,7 +164,6 @@ opacity: 87%;
 font-size: 2.5rem;
 margin: 0 1.5rem;
 color: #c4c4c4;
-/* border: 1px solid #fff; */
 }
 
 #contact a:hover {
@@ -210,7 +183,6 @@ min-width: 480px;
 max-height: 100vh;
 text-align: center;
 color: #555;
-/* border: 1px solid #fff; */
 }
 
 .made-with-icon {
@@ -226,7 +198,6 @@ display: grid;
 /* grid-template-columns: 10% auto 10%; */
 grid-template-columns: 0.5fr auto 0.5fr;
 margin: 2.5rem 0;
-/* border: 1px solid #fff; */
 }
 
 .grid-item {
@@ -239,8 +210,6 @@ font-weight: 500;
 letter-spacing: 0.1rem;
 text-align: center;
 padding: 1rem 0 1.5rem 0;
-/* margin: 1rem 0; */
-/* border: 1px solid #fff; */
 }
 
 #resume-link {
@@ -249,7 +218,6 @@ color:#b4f865;
 opacity: 70%;
 padding: 0.5rem 1rem;
 border: 1px solid #b4f865;
-/* border-bottom: 1.2px solid #78C257; */
 }
 
 #resume-link:hover {
@@ -261,20 +229,15 @@ opacity: 70%;
 .section-header {
 font-size: 1.4em;
 letter-spacing: 0.15rem;
-/* font-weight: 300; */
 color:#107C10;
-/* opacity: 90%; */
 margin: 3rem 0.75rem 0rem 0.75rem;
 border-bottom: 1px solid #78C257;
-/* border-bottom: 1.25px solid #78C257; */
-/* border-bottom: 1.25px solid #89d821; */
 }
 
 .sub-header {
 font-size: 1.1rem;
 letter-spacing: 0.4rem;
 font-weight: 400;
-/* color:#95DF4F; */
 color:#4c9928;
 opacity: 87%;
 margin: 2rem 0rem 0rem 3.7rem;
@@ -282,9 +245,7 @@ margin: 2rem 0rem 0rem 3.7rem;
 
 .icon-row {
 padding: 1rem 2rem 0.5rem 2rem;
-/* margin: 0 auto; */
 max-width: 100%;
-/* border: 1px solid #fff; */
 }
 
 .skill-icons {
@@ -293,7 +254,6 @@ padding: 0 1.75rem;
 font-size: 2.7em;
 color: #c4c4c4;
 opacity: 90%;
-/* border: 1px solid #fff; */
 }
 
 .design-icons {
@@ -301,7 +261,6 @@ padding: 0 2.05rem;
 font-size: 2.7em;
 color: #c4c4c4;
 opacity: 90%;
-/* border: 1px solid #fff; */
 }
 
 .material-icon {
@@ -309,7 +268,6 @@ width: 55px;
 margin: 0 1.75rem; 
 vertical-align: bottom; 
 opacity: 75%;
-/* border: 1px solid #fff; */
 }
 
 .semantic-icon {
@@ -317,13 +275,10 @@ margin: 0 2rem;
 vertical-align: bottom; 
 padding-bottom: 2px; 
 opacity: 92%;
-/* border: 1px solid #fff; */
 }
 
 .adobe-icons {
 padding: 0 0.2rem;
-/* vertical-align: bottom;  */
-/* border: 1px solid #fff; */
 }
 
 .icon-row .adobe-icons img {
@@ -339,14 +294,8 @@ background-color: #c4c4c4;
 .accordion {
 max-width: 100vw;
 max-height: 100vh;
-/* margin: 0; */
 margin-top: 1rem;
 position: sticky;
-/* background-color: #e6e6e6; */
-/* background-color: #e8e8e8; */
-/* background-color: whitesmoke; */
-/* opacity: 90%; */
-/* border: 1px solid red; */
 }
 
 /* project slide list */
@@ -354,10 +303,7 @@ position: sticky;
 width: 100%;
 display: table;
 table-layout: fixed;
-/* margin-top: 5rem; */
 padding: 0;
-/* background-color: #e8e8e8; */
-/* background-color: transparent; */
 }
 
 /* single project slide */
@@ -366,17 +312,11 @@ display: table-cell;
 vertical-align: bottom;
 position: relative;
 /* width: calc((100% / 3)); */
-/* width: 16.666%; */
-/* height: 350px; */
-/* width: 33%; */
-/* max-width: 480px; */
 height: 100vh;
 background-repeat: no-repeat;
 background-position: center center;
 transition: all 150ms ease;
 margin: 1rem 0;
-/* background-color: #e8e8e8; */
-/* background-color: transparent; */
 
 /* project slide drop shadow */
 /* transition: all 0.5s; */
@@ -397,48 +337,33 @@ display: block;
 overflow: hidden;
 position: sticky;
 width: 100%;
-/* background-color: transparent; */
-/* background-color: #e8e8e8; slide color */
 }
 
 /* single project slide content */
 .accordion ul li div div {
 display: block;
 height: 100vh;
-/* width: 100%; */
 max-width: 100%;
 position: relative;
 z-index: 3;
 vertical-align: bottom;
 padding: 15px 20px;
 box-sizing: border-box;
-/* color: #fff; */
-/* color: #c4c4c4; */
-/* color: #e2e2e2; */
-/* color: whitesmoke; */
 transition: all 150ms ease;
-/* background-color: transparent; */
-/* background-color: #e8e8e8; */
 }
 
 .accordion ul li div div * {
 opacity: 0;
 margin: 0;
 max-width: 100%;
-/* width: 100%; */
-/* text-overflow: ellipsis; */
 position: relative;
 z-index: 5;
-/* white-space: nowrap; */
-/* overflow: hidden; */
 overflow-y: auto;
 overflow-wrap: break-word;
 -webkit-transform: translateX(-20px);
 transform: translateX(-20px);
 -webkit-transition: all 150ms ease;
 transition: all 150ms ease;
-/* background-color: #e8e8e8; */
-/* background-color: transparent; */
 }
 
 /* .accordion ul li div div h1 {
@@ -484,12 +409,7 @@ background-color: transparent;
 opacity: 1;
 -webkit-transform: translateX(0);
 transform: translateX(0);
-/* background-color: transparent; */
 background-color: #fafafa; 
-/* background-color: #e2e2e2;  */
-/* background-color: whitesmoke; */
-/* padding-left: 3.5rem; */
-/* overflow-wrap: break-word; */
 }
 
 /* ul li div */
@@ -497,14 +417,12 @@ background-color: #fafafa;
 background-color: transparent;
 max-width: 100%;
 bottom: 2rem;
-/* border: 1px solid blue; */
 }
 
 /* ul li div div */
 .project-content {
 background-color: transparent;
 height: 100vh;
-/* border: 3px solid orange; */
 }
 
 .accordion .project-content img {
@@ -538,9 +456,6 @@ letter-spacing: 0.5rem;
 padding: 2rem 0 3rem 0;
 width: 100%;
 text-transform: uppercase;
-/* text-decoration: underline; */
-/* text-decoration-color: #c4c4c4; */
-/* border: 1px solid red; */
 } 
 
 .project-desc {
@@ -550,12 +465,10 @@ font-weight: 400;
 letter-spacing: 0.1rem;
 line-height: 2rem;
 text-align: center;
-/* border: 1px solid red; */
 }
 
 /* project-link buttons */
 .accordion .project-content a {
-/* border: 1px solid #bebebe; */
 /* box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1); */
 /* box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.06); */
 box-shadow:
@@ -590,9 +503,6 @@ font-size: 1.1em;
 font-weight: 400; 
 letter-spacing: 0.09rem;
 color:#2ca719;
-/* color:#78C257; */
-/* opacity: 87%; */
-/* border: 1px solid red; */
 } 
 
 .project-stack-header {
@@ -600,16 +510,9 @@ font-size: 0.98em;
 font-weight: 500; 
 letter-spacing: 0.09rem;
 color: #8b8b8b;
-/* color:#78C257; */
-/* opacity: 87%; */
-/* border: 1px solid red; */
 }
 
 .project-info-container {
-/* background-color: #e8e8e8; */
-/* background-color: transparent; */
-/* text-align: right; */
-/* color: #4e4e4e; */
 color: #797979;
 font-size: 1.05em;
 font-weight: 300;
@@ -617,14 +520,10 @@ letter-spacing: 0.1rem;
 line-height: 2.4rem;
 padding: 2rem 3rem;
 width: 90%;
-/* position: relative; */
-/* border: 1px solid red; */
 }
 
 .project-bullet {
 color:#2ca719; 
-/* color:#78C257;  */
-/* opacity: 87%; */
 font-size: 1.5em; 
 font-weight: 300;
 vertical-align: middle;
@@ -702,10 +601,6 @@ Example: block older browsers from seeing an iPhone or Android phone style sheet
 html, body { margin: 0; }
 
 .navbar {
-/* border: 1px solid red; */
-/* display: inline-block; */
-/* justify-content: flex-end; */
-/* margin: 0; */
 padding: 1rem 0;
 }
 
@@ -734,11 +629,12 @@ margin: 20px auto;
 	transition: none;
 	/* background-color: transparent; */
 }
+
 .accordion ul li {
-	width: 100vw;
-	height: auto;
-	overflow-y: auto;
-	}	
+width: 100vw;
+height: auto;
+overflow-y: auto;
+}	
 
 .project-name {
 width: 100%;
@@ -768,11 +664,12 @@ padding: 1rem 0;
 
 @media only screen and (max-width: 620px) {
 .project-links {
-  max-width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  }
+max-width: 50%;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ Landscape (736w x 414h) ----------- */
@@ -783,10 +680,6 @@ padding: 1rem 0;
 
 html, body { margin: 0; }
 
-/* .bio-container {
-font-size: 0.3em;
-} */
-
 .name-dev {
 font-size: 1.5em;
 }
@@ -795,9 +688,8 @@ font-size: 1.5em;
 display: grid;
 grid-template-columns: 5% auto 5%;
 padding-bottom: 5rem;
-/* margin: 2.5rem 0; */
-/* border: 1px solid #fff; */
 }
+
 .skill-icons {
 display: inline-block;
 margin: 20px auto;
@@ -838,7 +730,6 @@ bottom: 2rem;
 display: grid;
 grid-template-columns: auto auto auto;
 margin: 2.5rem 0;
-/* border: 1px solid #fff; */
 }
 
 .icon-row {
@@ -848,7 +739,6 @@ margin:0;
 
 .icon-row .design-icons img {
 width: 50px; 
-/* margin: 0rem 1.75rem;  */
 vertical-align: bottom;
 background-color: #c4c4c4;
 }
@@ -876,8 +766,6 @@ html, body { margin: 0; }
 .grid-wrapper {
 display: grid;
 grid-template-columns: 5% auto 5%;
-/* margin: 2.5rem 0; */
-/* border: 1px solid #fff; */
 }
 
 .skill-icons {
