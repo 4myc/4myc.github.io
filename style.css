@@ -737,10 +737,21 @@ padding: 0;
 .c26-project-title {
 padding: 0 0 1rem 1rem;
 }
+
 }
 
 /* ----------- iPhone X Landscape (812w x 375h) ----------- */
+@media only screen and (max-width: 850px) {
 
+html, body { margin: 0; }
+.project-links {
+width: 100%;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+}
 
 /* ----------- iPad, 10" Landscape (1024w x 768h) ----------- */
 /* ----------- iPad Pro, 10" Portrait (1024w x 1366h) ----------- */
