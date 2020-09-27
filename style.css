@@ -197,9 +197,9 @@ grid-template-columns: 0.5fr auto 0.5fr;
 margin: 2.5rem 0;
 }
 
-.grid-item {
-/* border: 1px solid #fff;	 */
-}
+/* .grid-item {
+border: 1px solid #fff;	
+} */
 
 .view-resume {
 font-size: 1.15em;
@@ -381,20 +381,28 @@ background-color: transparent;
 }
 */
 
-/* .accordion li:nth-child(1) { background: #121212;}
-.accordion li:nth-child(2) { background: #121212;}
-.accordion li:nth-child(3) { background: #121212;} */
-
 /* NOTE: rgba ONLY affects opacity of background color, not content. last number 0.9 = 90% opacity */
+.accordion li:nth-child(1) { background: #269601;}
+.accordion li:nth-child(2) { background: #43B02A;}
+.accordion li:nth-child(3) { background: #63ca33;}
+.accordion li:nth-child(4) { background: #8bdd61;}
+.accordion li:nth-child(5) { background: #a6ec83;}
+/* .accordion li:nth-child(5) { background: #aeeb6e;} */
+/* .accordion li:nth-child(1) { background: #4CAE04;}
+.accordion li:nth-child(2) { background: #79C300;}
+.accordion li:nth-child(3) { background: #97D700;}
+.accordion li:nth-child(4) { background: #A4D233;}
+.accordion li:nth-child(5) { background: #B7DB57;} */
 /* .accordion li:nth-child(1) { background-color:rgba(47, 185, 26, 0.9)}
 .accordion li:nth-child(2) { background-color:rgba(104, 210, 4, 0.9)}
 .accordion li:nth-child(3) { background-color:rgba(149, 223, 79, 0.9)} */
-.accordion li:nth-child(1) { background: #2fb91a;}
-.accordion li:nth-child(2) { background: #68d204;}
-.accordion li:nth-child(3) { background: #95DF4F;}
-.accordion li:nth-child(4) { background: #bef789;}
-/* .accordion li:nth-child(4) { background: #68d204;} */
-/* .accordion li:nth-child(#) { background: #78C257;}*/
+/* .accordion li:nth-child(1) { background: #00AA13;} */
+/* .accordion li:nth-child(1) { background: #4DB938;} */
+/* .accordion li:nth-child(3) { background: #68d204;} */
+/* .accordion li:nth-child(5) { background: #C7E995;} */
+/* .accordion li:nth-child(5) { background: #bef789;} */
+
+/* .accordion li:nth-child(4) { background: #D1F08F;} */
 
 .accordion ul:hover li { width: 8%; }
 
@@ -407,7 +415,7 @@ background-color: transparent;
 opacity: 1;
 -webkit-transform: translateX(0);
 transform: translateX(0);
-background-color: #fafafa; 
+background-color: #fefefe; 
 }
 
 /* ul li div */
@@ -428,7 +436,7 @@ display: block;
 margin: 0 auto;
 max-width: 85%;
 padding: 1rem 1rem;
-border: 1px solid #cacaca;
+border: 1px solid #fefefe;
 box-shadow:  
 /* -16px 16px 32px 0 rgba(240,240,240,1),
 16px -16px 32px rgba(255,255,255,1); */
@@ -462,7 +470,7 @@ letter-spacing: 0.1rem;
 line-height: 2rem;
 text-align: center;
 width: 100%;
-padding: 0;
+/* padding: 0 3rem; */
 /* border: 1px solid red; */
 }
 
@@ -500,7 +508,7 @@ opacity: 87%;
 .project-info-container {
 margin: 0 auto;
 width: 100%;
-padding: 3rem 8rem 4rem 8rem;
+padding: 3rem 5rem 4rem 5rem;
 color: #797979;
 font-size: 1.05em;
 font-weight: 300;
@@ -508,11 +516,15 @@ letter-spacing: 0.1rem;
 line-height: 2.4rem;
 }
 
-.c26-work-header {
-  font-size: 0.98em;
-  font-weight: 500; 
-  letter-spacing: 0.09rem;
-  color: #8b8b8b;
+.c26-project-title {
+margin: 0 auto;
+width: 100%;
+padding: 0 0 1rem 5rem;
+color: #797979;
+font-size: 1.05em;
+font-weight: 300;
+letter-spacing: 0.1rem;
+line-height: 2.4rem;
 }
 
 .project-stack-header {
@@ -616,6 +628,10 @@ margin: 0 auto;
 max-width: 100vw;
 }
 
+#bio {
+  width: 85vw;
+}
+
 .skill-icons {
 display: inline-block;
 margin: 20px auto;
@@ -677,6 +693,7 @@ display: flex;
 justify-content: center;
 align-items: flex-end;
 }
+
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ Landscape (736w x 414h) ----------- */
@@ -717,7 +734,9 @@ width: 100%;
 padding: 0;
 }
 
-
+.c26-project-title {
+padding: 0 0 1rem 1rem;
+}
 }
 
 /* ----------- iPhone X Landscape (812w x 375h) ----------- */
@@ -770,9 +789,13 @@ margin: 20px auto;
 width: 100%;
 }
 
+.c26-project-title {
+padding: 0 0 1rem 2rem;
+}
 }
 
 /* ----------- iPad Pro, 10" Landscape (1366w x 1024h) ----------- */
+
 
 
 /* ----------- Laptop (1440w x 900h) ----------- */
