@@ -459,7 +459,6 @@ font-weight: 400;
 letter-spacing: 0.5rem;
 padding: 2rem 0 3rem 0;
 width: 100%;
-/* text-transform: uppercase; */
 } 
 
 .project-desc {
@@ -469,9 +468,7 @@ font-weight: 400;
 letter-spacing: 0.1rem;
 line-height: 2rem;
 text-align: center;
-width: 100%;
-/* padding: 0 3rem; */
-/* border: 1px solid red; */
+padding: 0 3rem;
 }
 
 /* project-link buttons */
@@ -667,7 +664,6 @@ padding: 2rem 0;
 } 
 
 .project-desc {
-max-width: 70%;
 line-height: 2.75rem;
 }
 
@@ -730,7 +726,7 @@ font-size: 0.8em;
 }
 
 .project-info-container {
-width: 90%;
+width: 100%;
 padding: 0;
 }
 
